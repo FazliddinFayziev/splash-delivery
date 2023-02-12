@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai"
 import { useNavigate } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const NavbarUZ = () => {
     const [uz, setUz] = useState("uz")
@@ -35,45 +36,45 @@ const NavbarUZ = () => {
                     <div className='md:flex hidden items-center'>
                         <ul className='font-dosis font-semibold'>
                             <li className='inline-block mr-7 relative group'>
-                                <a href="">
+                                <HashLink smooth to="#hero-banerUZ">
                                     Home
-                                </a>
+                                </HashLink>
                                 <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-blue-400 transition-all group-hover:w-full"></span>
                             </li>
                             <li className='inline-block mr-7 relative group'>
-                                <a href="">
+                                <HashLink smooth to="#suvUZ">
                                     Suv tarkibi
-                                </a>
+                                </HashLink>
                                 <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-blue-400 transition-all group-hover:w-full"></span>
                             </li>
                             <li className='inline-block mr-7 relative group'>
-                                <a href="">
+                                <HashLink smooth to="#xizmatUZ">
                                     Xizmat
-                                </a>
+                                </HashLink>
                                 <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-blue-400 transition-all group-hover:w-full"></span>
                             </li>
                             <li className='inline-block mr-7 relative group'>
-                                <a href="">
+                                <HashLink smooth to="#maxsulotUZ">
                                     Maxsulot
-                                </a>
+                                </HashLink>
                                 <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-blue-400 transition-all group-hover:w-full"></span>
                             </li>
                             <li className='inline-block mr-7 relative group'>
-                                <a href="">
+                                <HashLink smooth to="#tolovUZ">
                                     To'lov
-                                </a>
+                                </HashLink>
                                 <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-blue-400 transition-all group-hover:w-full"></span>
                             </li>
                             <li className='inline-block mr-7 relative group'>
-                                <a href="">
+                                <HashLink smooth to="#contactUZ">
                                     Bog'lanish
-                                </a>
+                                </HashLink>
                                 <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-blue-400 transition-all group-hover:w-full"></span>
                             </li>
                             <li className='inline-block mr-7 relative group'>
-                                <a href="">
+                                <HashLink smooth to="#locationUZ">
                                     Joylashuv
-                                </a>
+                                </HashLink>
                                 <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-blue-400 transition-all group-hover:w-full"></span>
                             </li>
                             <select onChange={(e) => setUz(e.target.value)} value={uz} className='inline-block mr-7' name="" id="">
@@ -86,7 +87,7 @@ const NavbarUZ = () => {
                     <div className='md:hidden'>
                         {
                             nav ? (
-                                <div className='top-0 right-0 fixed w-[50%] h-full bg-[#379EFF] translate-x-0 ease-in-out duration-300'>
+                                <div className='top-0 right-0 fixed w-[50%] z-10 h-full bg-[#379EFF] translate-x-0 ease-in-out duration-300'>
                                     <div className='mt-[10px] ml-[10px]'>
                                         <AiOutlineClose fontSize={30} color="white" onClick={handleClose} />
                                     </div>
@@ -94,45 +95,45 @@ const NavbarUZ = () => {
                                         <div className='w-[100px] h-full'>
                                             <ul className='font-dosis font-semibold text-center text-white'>
                                                 <li className='mt-4 relative group'>
-                                                    <a href="">
+                                                    <HashLink smooth to="#hero-banerUZ">
                                                         Home
-                                                    </a>
+                                                    </HashLink>
                                                     <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white transition-all group-hover:w-full"></span>
                                                 </li>
                                                 <li className='mt-4 relative group'>
-                                                    <a href="">
+                                                    <HashLink smooth to="#suvUZ" onClick={handleClose}>
                                                         Suv tarkibi
-                                                    </a>
+                                                    </HashLink>
                                                     <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white transition-all group-hover:w-full"></span>
                                                 </li>
                                                 <li className='mt-4 relative group'>
-                                                    <a href="">
+                                                    <HashLink smooth to="#xizmatUZ" onClick={handleClose}>
                                                         Xizmat
-                                                    </a>
+                                                    </HashLink>
                                                     <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white transition-all group-hover:w-full"></span>
                                                 </li>
                                                 <li className='mt-4 relative group'>
-                                                    <a href="">
+                                                    <HashLink smooth to="#maxsulotUZ" onClick={handleClose}>
                                                         Maxsulot
-                                                    </a>
+                                                    </HashLink>
                                                     <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white transition-all group-hover:w-full"></span>
                                                 </li>
                                                 <li className='mt-4 relative group'>
-                                                    <a href="">
+                                                    <HashLink smooth to="#tolovUZ" onClick={handleClose}>
                                                         To'lov
-                                                    </a>
+                                                    </HashLink>
                                                     <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white transition-all group-hover:w-full"></span>
                                                 </li>
                                                 <li className='mt-4 relative group'>
-                                                    <a href="">
+                                                    <HashLink smooth to="#contactUZ" onClick={handleClose}>
                                                         Bog'lanish
-                                                    </a>
+                                                    </HashLink>
                                                     <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white transition-all group-hover:w-full"></span>
                                                 </li>
                                                 <li className='mt-4 relative group'>
-                                                    <a href="">
+                                                    <HashLink smooth to="#locationUZ" onClick={handleClose}>
                                                         Joylashuv
-                                                    </a>
+                                                    </HashLink>
                                                     <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white transition-all group-hover:w-full"></span>
                                                 </li>
                                                 <select onChange={(e) => setUz(e.target.value)} value={uz} className='mt-4 text-black' name="" id="">

@@ -3,12 +3,12 @@ import React from 'react'
 const SectionOneUZ = () => {
     return (
         <>
-            <section className='w-full h-full bg-[#f8fcff] font-dosis font-semibold'>
+            <section id='suvUZ' className='w-full h-full bg-[#f8fcff] font-dosis font-semibold'>
                 <div>
                     <div>
                         <div className='flex justify-center'>
-                            <div className='w-[40%] h-[40%]'>
-                                <img className='w-full h-full object-cover object-center' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675503793/suv1-removebg-preview_sb3ap7.png" alt="" />
+                            <div className='w-[150px] h-full'>
+                                <h1 className="wavy text-xl flex justify-center" href="#">Ko'p suv ichishning ijobiy tomonlari</h1>
                             </div>
                         </div>
                         <br />

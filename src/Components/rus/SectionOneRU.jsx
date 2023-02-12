@@ -3,12 +3,12 @@ import React from 'react'
 const SectionOneRU = () => {
     return (
         <>
-            <section className='w-full h-full bg-[#f8fcff] font-dosis font-semibold'>
+            <section id='suvRU' className='w-full h-full bg-[#f8fcff] font-dosis font-semibold'>
                 <div>
                     <div>
                         <div className='flex justify-center'>
-                            <div className='w-[40%] h-[40%]'>
-                                <img className='w-full h-full object-cover object-center' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675617663/suvtitle-removebg-preview_u84z5k.png" alt="" />
+                            <div className='w-[300px] h-full'>
+                                <h1 className="wavy text-xl">А вы знали, что употребление <span className='text-[#379EFF]'>большого количества воды:</span></h1>
                             </div>
                         </div>
                         <br />

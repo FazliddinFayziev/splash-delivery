@@ -2,3 +2,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.wavy {
+    text-decoration: none;
+    padding-bottom: 13px;
+    background-image: url('https://res.cloudinary.com/dcrolfqsj/image/upload/v1675774078/Untitled_o9ioah.jpg');
+    background-repeat: repeat-x;
+    background-position: -200px 100%;
+    background-size: 250px;
+}
+
+.card {
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.slick-prev:before {
+    font-size: 25px !important;
+    color: #379EFF !important;
+    background-color: #eee;
+}
+
+.slick-next:before {
+    font-size: 25px !important;
+    color: #379EFF !important;
+    background-color: #eee;
+}
