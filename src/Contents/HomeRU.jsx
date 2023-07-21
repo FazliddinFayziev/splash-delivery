@@ -15,6 +15,9 @@ import XizmatRU from '../Components/rus/XizmatRU';
 const HomeRU = () => {
     return (
         <>
+            <div className='w-[100%] h-[30px] bg-[#e3f4fe] flex justify-center items-center font-dosis'>
+                Сайт находится в тестовом режиме
+            </div>
             <NavbarRU />
             <HerroBannerRU />
             <PhoneFixerRU />

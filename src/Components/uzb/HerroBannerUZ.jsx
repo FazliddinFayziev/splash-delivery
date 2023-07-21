@@ -12,7 +12,7 @@ const HerroBannerUZ = () => {
                     </div>
                     <div className='flex mx-12 md:py-10 justify-evenly items-center'>
                         {/* SPLASH BOCHKA */}
-                        <div className='md:w-[40%] md:h-[40%] justify-center w-[400px] h-[350px]'>
+                        <div className='md:w-[40%] md:h-[40%] md:ml-[150px] justify-center w-[400px] h-[350px]'>
                             <img src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675054726/sp1-removebg-preview_snxgkb.png" className='object-center object-cover' alt="splash" />
                             {/* ON THE MOBILE PHONE */}
                             <div className='flex justify-center md:hidden'>

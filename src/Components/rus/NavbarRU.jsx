@@ -29,7 +29,7 @@ const NavbarRU = () => {
         <div className='w-full h-[70px] bg-[#EEF9FF]'>
             <div className='w-full h-full'>
                 <div className='flex justify-between'>
-                    <div className='w-[100px] h-[70px]'>
+                    <div className='w-[100px] h-[70px] ml-8'>
                         <a href="">
                             <img src="https://res.cloudinary.com/dip5rm08k/image/upload/v1674545546/splash-removebg-preview_vyuz5o.png" className='w-full h-full object-cover' alt="splash-logo" />
                         </a>
@@ -88,7 +88,7 @@ const NavbarRU = () => {
                     <div className='md:hidden'>
                         {
                             nav ? (
-                                <div className='top-0 right-0 fixed w-[50%] h-full bg-[#379EFF] translate-x-0 ease-in-out duration-300'>
+                                <div className='top-0 right-0 fixed z-10 w-[50%] h-full bg-[#379EFF] translate-x-0 ease-in-out duration-300'>
                                     <div className='mt-[10px] ml-[10px]'>
                                         <AiOutlineClose fontSize={30} color="white" onClick={handleClose} />
                                     </div>
@@ -96,43 +96,43 @@ const NavbarRU = () => {
                                         <div className='w-[100px] h-full'>
                                             <ul className='font-dosis font-semibold text-center text-white text-sm'>
                                                 <li className='mt-4 relative group'>
-                                                    <HashLink smooth to="#hero-banerRU">
+                                                    <HashLink smooth to="#hero-banerRU" onClick={handleClose}>
                                                         Home
                                                     </HashLink>
                                                     <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white transition-all group-hover:w-full"></span>
                                                 </li>
                                                 <li className='mt-4 relative group'>
-                                                    <HashLink smooth to="#suvRU">
+                                                    <HashLink smooth to="#suvRU" onClick={handleClose}>
                                                         Содержание воды
                                                     </HashLink>
                                                     <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white transition-all group-hover:w-full"></span>
                                                 </li>
                                                 <li className='mt-4 relative group'>
-                                                    <HashLink smooth to="#xizmatRU">
+                                                    <HashLink smooth to="#xizmatRU" onClick={handleClose}>
                                                         Услуга
                                                     </HashLink>
                                                     <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white transition-all group-hover:w-full"></span>
                                                 </li>
                                                 <li className='mt-4 relative group'>
-                                                    <HashLink smooth to="#maxsulotRU">
+                                                    <HashLink smooth to="#maxsulotRU" onClick={handleClose}>
                                                         Продукт
                                                     </HashLink>
                                                     <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white transition-all group-hover:w-full"></span>
                                                 </li>
                                                 <li className='mt-4 relative group'>
-                                                    <HashLink smooth to="#tolovRU">
+                                                    <HashLink smooth to="#tolovRU" onClick={handleClose}>
                                                         Оплата
                                                     </HashLink>
                                                     <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white transition-all group-hover:w-full"></span>
                                                 </li>
                                                 <li className='mt-4 relative group'>
-                                                    <HashLink smooth to="#contactRU">
+                                                    <HashLink smooth to="#contactRU" onClick={handleClose}>
                                                         Контакт
                                                     </HashLink>
                                                     <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white transition-all group-hover:w-full"></span>
                                                 </li>
                                                 <li className='mt-4 relative group'>
-                                                    <HashLink smooth to="#locationRU">
+                                                    <HashLink smooth to="#locationRU" onClick={handleClose}>
                                                         Расположение
                                                     </HashLink>
                                                     <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white transition-all group-hover:w-full"></span>

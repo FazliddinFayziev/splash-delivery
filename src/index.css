@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background-color: #f8fcff;
+}
+
 .wavy {
     text-decoration: none;
     padding-bottom: 13px;

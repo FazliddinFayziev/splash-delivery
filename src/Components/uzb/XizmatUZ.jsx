@@ -53,7 +53,7 @@ const XizmatUZ = () => {
                                                 <div className='ml-[10px] w-[5px] h-[20px] border-l-2 border-indigo-500'></div>
                                             </div>
                                             <div className='flex items-center'>
-                                                <p className='w-full text-sm'>Haftasiga<span className='text-[#379EFF]'> 6 kun</span></p>
+                                                <p className='w-full text-sm'>Haftasiga<span className='text-[#379EFF]'> 6 kun </span>  (Yakshanba dam olish kuni)</p>
                                             </div>
                                         </div>
                                         {/* time */}
@@ -80,7 +80,7 @@ const XizmatUZ = () => {
                                 </div>
                                 <div className='flex justify-center'>
                                     <div className='w-[100px] h-full'>
-                                        <h1 className="wavy text-sm flex justify-center" href="#">Bizning <span className='text-[#379EFF] ml-1'>Jadval</span></h1>
+                                        <h1 className="wavy text-sm flex justify-center text-center" href="#">Yetkazib berish Jadvali</h1>
                                     </div>
                                 </div>
                                 <div className='flex justify-center'>

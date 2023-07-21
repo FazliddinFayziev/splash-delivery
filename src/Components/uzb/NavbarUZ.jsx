@@ -28,7 +28,7 @@ const NavbarUZ = () => {
         <div className='w-full h-[70px] bg-[#EEF9FF]'>
             <div className='w-full h-full'>
                 <div className='flex justify-between'>
-                    <div className='w-[100px] h-[70px]'>
+                    <div className='w-[100px] h-[70px] ml-8'>
                         <a href="">
                             <img src="https://res.cloudinary.com/dip5rm08k/image/upload/v1674545546/splash-removebg-preview_vyuz5o.png" className='w-full h-full object-cover' alt="splash-logo" />
                         </a>

@@ -2,7 +2,7 @@ import React from "react";
 
 const LocationSectionRU = () => {
     return (
-        <section id="locationRU" className="py-10 font-dosis font-semibold">
+        <section id="locationRU" className="py-10 font-dosis font-semibold bg-[#f8fcff]">
             <div className='flex justify-center my-8'>
                 <div className='w-[150px] h-full'>
                     <h1 className="wavy text-2xl flex justify-center" href="#">Расположение</h1>
@@ -19,7 +19,7 @@ const LocationSectionRU = () => {
                 ></iframe>
             </div>
             <p className="text-center mt-6 text-gray-600">
-                9998+8CC, Abdurauf Fitrat ko'chasi, Qibray, Узбекистан
+                Splash, Abdurauf Fitrat ko'chasi, Qibray, Узбекистан
             </p>
         </section>
     );

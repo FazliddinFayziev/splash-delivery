@@ -46,7 +46,7 @@ export const DatasRU = [
 // Xizmatlat Shahar
 export const Option1 = () => (
     <div>
-        <p>xar kuni (yakshanba dam olish kuni).</p>
+        <p>xar kuni</p>
     </div>
 );
 export const Option2 = () => (
@@ -61,7 +61,7 @@ export const Option3 = () => (
 );
 export const Option4 = () => (
     <div>
-        <p>xar kuni (yakshanba dam olish kuni).</p>
+        <p>xar kuni</p>
     </div>
 );
 export const Option5 = () => (
@@ -71,7 +71,7 @@ export const Option5 = () => (
 );
 export const Option6 = () => (
     <div>
-        <p>xar kuni (yakshanba dam olish kuni).</p>
+        <p>xar kuni</p>
     </div>
 );
 export const Option7 = () => (
@@ -82,7 +82,7 @@ export const Option7 = () => (
 
 export const Option8 = () => (
     <div>
-        <p>(Аmir Temur maxallasi, Geofizika, Selektsiya, Oʼnqoʼrgʼon, Gʼishtkoʼprik, Qoramurt, Madaniyat) - xar kuni (yakshanba dam olish kuni).</p>
+        <p>(Аmir Temur mahallasi, Geofizika, Selektsiya, Oʼnqoʼrgʼon, Gʼishtkoʼprik, Qoramurt, Madaniyat) - xar kuni</p>
     </div>
 );
 
@@ -91,7 +91,7 @@ export const Option8 = () => (
 // Xizmatlat Shahar Rustilida yasalgan oyna uchun.
 export const Option1r = () => (
     <div>
-        <p>Каждый день (воскресенье выходной)</p>
+        <p>ежедневно</p>
     </div>
 );
 export const Option2r = () => (
@@ -106,7 +106,7 @@ export const Option3r = () => (
 );
 export const Option4r = () => (
     <div>
-        <p>Каждый день (воскресенье выходной)</p>
+        <p>ежедневно</p>
     </div>
 );
 export const Option5r = () => (
@@ -116,7 +116,7 @@ export const Option5r = () => (
 );
 export const Option6r = () => (
     <div>
-        <p>Каждый день (воскресенье выходной)</p>
+        <p>ежедневно</p>
     </div>
 );
 export const Option7r = () => (
@@ -127,7 +127,7 @@ export const Option7r = () => (
 
 export const Option8r = () => (
     <div>
-        <p>(Окрестности Амира Темура, Геофизика, Селекция, Онкорган, Гишткоприк, Карамурт, Культура) - каждый день(воскресенье выходной).</p>
+        <p>(Махалля Амира Темура, Геофизика, Селекция, Онкорган, Гишткоприк, Карамурт, Маданият) - ежедневно</p>
     </div>
 );
 
@@ -232,6 +232,35 @@ export const Maxsulotlar = [
         img: "https://res.cloudinary.com/dcrolfqsj/image/upload/v1675844659/litr5-removebg-preview_ixvrwc.png",
         title: "5.0 litr mineral suv",
         title2: "5,0 литров минеральной воды",
+        star: [
+            {
+                id: 0,
+                star1: "https://res.cloudinary.com/dcrolfqsj/image/upload/v1675844205/starrrr-removebg-preview_st734w.png",
+            },
+            {
+                id: 1,
+                star1: "https://res.cloudinary.com/dcrolfqsj/image/upload/v1675844205/starrrr-removebg-preview_st734w.png",
+            },
+            {
+                id: 2,
+                star1: "https://res.cloudinary.com/dcrolfqsj/image/upload/v1675844205/starrrr-removebg-preview_st734w.png",
+            },
+            {
+                id: 3,
+                star1: "https://res.cloudinary.com/dcrolfqsj/image/upload/v1675844205/starrrr-removebg-preview_st734w.png",
+            },
+            {
+                id: 4,
+                star1: "https://res.cloudinary.com/dcrolfqsj/image/upload/v1675844205/starrrr-removebg-preview_st734w.png",
+            },
+        ]
+    },
+    // 20 L SUV
+    {
+        id: 500,
+        img: "https://res.cloudinary.com/dcrolfqsj/image/upload/v1689931300/splash-20_reig2m.jpg",
+        title: "19 litr mineral suv",
+        title2: "19 литров минеральной воды",
         star: [
             {
                 id: 0,

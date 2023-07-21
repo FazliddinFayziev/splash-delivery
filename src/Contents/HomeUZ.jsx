@@ -15,6 +15,9 @@ import XizmatUZ from '../Components/uzb/XizmatUZ'
 const HomeUZ = () => {
     return (
         <>
+            <div className='w-[100%] h-[30px] bg-[#e3f4fe] flex justify-center items-center font-dosis'>
+                Sayt test rejimida
+            </div>
             <NavbarUZ />
             <HerroBannerUZ />
             <PhoneFixer />
