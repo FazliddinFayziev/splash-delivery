@@ -4,8 +4,8 @@ import { AiOutlineClose } from "react-icons/ai"
 import { useNavigate } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
-const NavbarUZ = () => {
-    const [uz, setUz] = useState("uz")
+const NavbarEng = () => {
+    const [uz, setUz] = useState("eng")
     const navigate = useNavigate()
     useEffect(() => {
         if (uz === "uz") {
@@ -39,44 +39,44 @@ const NavbarUZ = () => {
                     <div className='md:flex hidden items-center'>
                         <ul className='font-dosis font-semibold'>
                             <li className='inline-block mr-7 relative group'>
-                                <HashLink smooth to="#hero-banerUZ">
+                                <HashLink smooth to="#hero-banerENG">
                                     Home
                                 </HashLink>
                                 <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-blue-400 transition-all group-hover:w-full"></span>
                             </li>
                             <li className='inline-block mr-7 relative group'>
-                                <HashLink smooth to="#suvUZ">
-                                    Suv tarkibi
+                                <HashLink smooth to="#suvENG">
+                                    Water content
                                 </HashLink>
                                 <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-blue-400 transition-all group-hover:w-full"></span>
                             </li>
                             <li className='inline-block mr-7 relative group'>
-                                <HashLink smooth to="#xizmatUZ">
-                                    Xizmat
+                                <HashLink smooth to="#xizmatENG">
+                                    Service
                                 </HashLink>
                                 <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-blue-400 transition-all group-hover:w-full"></span>
                             </li>
                             <li className='inline-block mr-7 relative group'>
-                                <HashLink smooth to="#maxsulotUZ">
-                                    Maxsulot
+                                <HashLink smooth to="#maxsulotENG">
+                                    Product
                                 </HashLink>
                                 <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-blue-400 transition-all group-hover:w-full"></span>
                             </li>
                             <li className='inline-block mr-7 relative group'>
-                                <HashLink smooth to="#tolovUZ">
-                                    To'lov
+                                <HashLink smooth to="#tolovENG">
+                                    Payment
                                 </HashLink>
                                 <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-blue-400 transition-all group-hover:w-full"></span>
                             </li>
                             <li className='inline-block mr-7 relative group'>
-                                <HashLink smooth to="#contactUZ">
-                                    Bog'lanish
+                                <HashLink smooth to="#contactENG">
+                                    Contact
                                 </HashLink>
                                 <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-blue-400 transition-all group-hover:w-full"></span>
                             </li>
                             <li className='inline-block mr-7 relative group'>
-                                <HashLink smooth to="#locationUZ">
-                                    Joylashuv
+                                <HashLink smooth to="#locationENG">
+                                    Location
                                 </HashLink>
                                 <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-blue-400 transition-all group-hover:w-full"></span>
                             </li>
@@ -99,44 +99,44 @@ const NavbarUZ = () => {
                                         <div className='w-[100px] h-full'>
                                             <ul className='font-dosis font-semibold text-center text-white'>
                                                 <li className='mt-4 relative group'>
-                                                    <HashLink smooth to="#hero-banerUZ">
+                                                    <HashLink smooth to="#hero-banerENG">
                                                         Home
                                                     </HashLink>
                                                     <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white transition-all group-hover:w-full"></span>
                                                 </li>
                                                 <li className='mt-4 relative group'>
-                                                    <HashLink smooth to="#suvUZ" onClick={handleClose}>
-                                                        Suv tarkibi
+                                                    <HashLink smooth to="#suvENG" onClick={handleClose}>
+                                                        Water content
                                                     </HashLink>
                                                     <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white transition-all group-hover:w-full"></span>
                                                 </li>
                                                 <li className='mt-4 relative group'>
-                                                    <HashLink smooth to="#xizmatUZ" onClick={handleClose}>
-                                                        Xizmat
+                                                    <HashLink smooth to="#xizmatENG" onClick={handleClose}>
+                                                        Service
                                                     </HashLink>
                                                     <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white transition-all group-hover:w-full"></span>
                                                 </li>
                                                 <li className='mt-4 relative group'>
-                                                    <HashLink smooth to="#maxsulotUZ" onClick={handleClose}>
-                                                        Maxsulot
+                                                    <HashLink smooth to="#maxsulotENG" onClick={handleClose}>
+                                                        Product
                                                     </HashLink>
                                                     <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white transition-all group-hover:w-full"></span>
                                                 </li>
                                                 <li className='mt-4 relative group'>
-                                                    <HashLink smooth to="#tolovUZ" onClick={handleClose}>
-                                                        To'lov
+                                                    <HashLink smooth to="#tolovENG" onClick={handleClose}>
+                                                        Payment
                                                     </HashLink>
                                                     <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white transition-all group-hover:w-full"></span>
                                                 </li>
                                                 <li className='mt-4 relative group'>
-                                                    <HashLink smooth to="#contactUZ" onClick={handleClose}>
-                                                        Bog'lanish
+                                                    <HashLink smooth to="#contactENG" onClick={handleClose}>
+                                                        Contact
                                                     </HashLink>
                                                     <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white transition-all group-hover:w-full"></span>
                                                 </li>
                                                 <li className='mt-4 relative group'>
-                                                    <HashLink smooth to="#locationUZ" onClick={handleClose}>
-                                                        Joylashuv
+                                                    <HashLink smooth to="#locationENG" onClick={handleClose}>
+                                                        Location
                                                     </HashLink>
                                                     <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white transition-all group-hover:w-full"></span>
                                                 </li>
@@ -163,4 +163,4 @@ const NavbarUZ = () => {
     )
 }
 
-export default NavbarUZ
+export default NavbarEng

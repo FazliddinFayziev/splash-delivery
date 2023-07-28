@@ -1,25 +1,25 @@
 import React, { useState } from 'react'
-import { Option1r, Option2r, Option3r, Option4r, Option5r, Option6r, Option7r, Option8r } from '../../data';
+import { Option1eng, Option2eng, Option3eng, Option4eng, Option5eng, Option6eng, Option7eng, Option8eng } from '../../data';
 
 
-const XizmatRU = () => {
+const XizmatEng = () => {
     const jadvallar = [
-        { value: "г.Ташкент", label: "г.Ташкент" },
-        { value: "юкори Чирчик", label: "юкори Чирчик" },
-        { value: "урта чирчик", label: "урта чирчик" },
-        { value: "Ташкентская область, Ташкентский район", label: "Ташкентская область, Ташкентский район" },
-        { value: "г. Чирчик", label: "г. Чирчик" },
-        { value: "Зангиатинский район", label: "Зангиатинский район" },
-        { value: "Кибрайский район (1)", label: "Кибрайский район (1)" },
-        { value: "Кибрайский район (2)", label: "Кибрайский район (2)" }
+        { value: "Tashkent city", label: "Tashkent city" },
+        { value: "Yuqori Chirchiq", label: "Yuqori Chirchiq" },
+        { value: "Oʼrta Chirchiq", label: "Oʼrta Chirchiq" },
+        { value: "Tashkent region, Tashkent district", label: "Tashkent region, Tashkent district" },
+        { value: "Chirchik city", label: "Chirchik city" },
+        { value: "Zangiota District", label: "Zangiota District" },
+        { value: "Qibray District (1)", label: "Qibray District (1)" },
+        { value: "Qibray District (2)", label: "Qibray District (2)" }
     ];
     const [selectedOption, setSelectedOption] = useState(jadvallar[0].value);
     return (
         <>
-            <section id='xizmatRU' className='font-dosis font-semibold bg-[#f8fcff]'>
+            <section id='xizmatENG' className='font-dosis font-semibold bg-[#f8fcff]'>
                 <div className='flex justify-center'>
                     <div className='w-[150px] h-full my-12'>
-                        <h1 className="wavy text-2xl flex justify-center" href="#">Наша <span className='text-[#379EFF] ml-1'>Услуга</span></h1>
+                        <h1 className="wavy text-2xl flex justify-center" href="#">Our <span className='text-[#379EFF] ml-1'>Service</span></h1>
                     </div>
                 </div>
                 <div className='flex justify-center'>
@@ -41,7 +41,7 @@ const XizmatRU = () => {
                                                 <div className='ml-[10px] w-[5px] h-[20px] border-l-2 border-indigo-500'></div>
                                             </div>
                                             <div className='flex items-center'>
-                                                <p className='w-full text-sm'><span className='text-[#379EFF]'>Бесплатная</span> доставка по городу ташкент</p>
+                                                <p className='w-full text-sm'><span className='text-[#379EFF]'>Free</span> delivery</p>
                                             </div>
                                         </div>
                                         {/* date */}
@@ -53,7 +53,7 @@ const XizmatRU = () => {
                                                 <div className='ml-[10px] w-[5px] h-[20px] border-l-2 border-indigo-500'></div>
                                             </div>
                                             <div className='flex items-center'>
-                                                <p className='w-full text-sm'><span className='text-[#379EFF]'>6 дней </span> в неделю (Воскресенье выходной)</p>
+                                                <p className='w-full text-sm'>6 days<span className='text-[#379EFF]'> a week </span>  (Sunday off)</p>
                                             </div>
                                         </div>
                                         {/* time */}
@@ -80,12 +80,12 @@ const XizmatRU = () => {
                                 </div>
                                 <div className='flex justify-center'>
                                     <div className='w-[100px] h-full'>
-                                        <h1 className="wavy text-sm flex justify-center" href="#"><span className='text-[#379EFF] ml-1'>График</span>доставки</h1>
+                                        <h1 className="wavy text-sm flex justify-center text-center" href="#">Delivery Schedule</h1>
                                     </div>
                                 </div>
                                 <div className='flex justify-center'>
                                     <div className=''>
-                                        <select className='w-full border-[1px] border-black' value={selectedOption} onChange={e => setSelectedOption(e.target.value)}>
+                                        <select className='border-[1px] border-black' value={selectedOption} onChange={e => setSelectedOption(e.target.value)}>
                                             {jadvallar.map(option => (
                                                 <option key={option.value} value={option.value}>
                                                     {option.label}
@@ -93,16 +93,16 @@ const XizmatRU = () => {
                                             ))}
                                         </select>
                                         <div className='flex justify-center my-4'>
-                                            <div className='flex justify-center border-[1px] border-[#379EFF] w-[70%] h-full card'>
+                                            <div className='flex justify-center border-[1px] border-[#379EFF] w-[90%] h-full card'>
                                                 <div className='p-2'>
-                                                    {selectedOption === "г.Ташкент" && <Option1r />}
-                                                    {selectedOption === "юкори Чирчик" && <Option2r />}
-                                                    {selectedOption === "урта чирчик" && <Option3r />}
-                                                    {selectedOption === "Ташкентская область, Ташкентский район" && <Option4r />}
-                                                    {selectedOption === "г. Чирчик" && <Option5r />}
-                                                    {selectedOption === "Зангиатинский район" && <Option6r />}
-                                                    {selectedOption === "Кибрайский район (1)" && <Option7r />}
-                                                    {selectedOption === "Кибрайский район (2)" && <Option8r />}
+                                                    {selectedOption === "Tashkent city" && <Option1eng />}
+                                                    {selectedOption === "Yuqori Chirchiq" && <Option2eng />}
+                                                    {selectedOption === "Oʼrta Chirchiq" && <Option3eng />}
+                                                    {selectedOption === "Tashkent region, Tashkent district" && <Option4eng />}
+                                                    {selectedOption === "Chirchik city" && <Option5eng />}
+                                                    {selectedOption === "Zangiota District" && <Option6eng />}
+                                                    {selectedOption === "Qibray District (1)" && <Option7eng />}
+                                                    {selectedOption === "Qibray District (2)" && <Option8eng />}
                                                     <div className='flex justify-center my-2'>
                                                         <div className='w-[60px] h-[50px]'>
                                                             <img className='w-full h-full object-cover object-center' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675691637/car-removebg-preview_nhmjda.png" alt="delivery" />
@@ -133,7 +133,7 @@ const XizmatRU = () => {
                                         <div className='ml-[10px] w-[5px] h-[20px] border-l-2 border-indigo-500'></div>
                                     </div>
                                     <div className='flex items-center'>
-                                        <p className='w-full text-sm'><span className='text-[#379EFF]'>Ремонт </span> кулера</p>
+                                        <p className='w-full text-sm'><span className='text-[#379EFF]'>Repair</span> Cooler</p>
                                     </div>
                                 </div>
                             </div>
@@ -145,4 +145,4 @@ const XizmatRU = () => {
     )
 }
 
-export default XizmatRU
+export default XizmatEng

@@ -13,9 +13,12 @@ const NavbarRU = () => {
             setUz("uz")
             navigate("/splashUZ")
         }
-        else {
+        else if (uz === "ru") {
             setUz("ru")
             navigate("/splashRU")
+        } else {
+            setUz("eng")
+            navigate("/splashENG")
         }
     }, [uz])
     const [nav, setNav] = useState(false);
@@ -81,6 +84,7 @@ const NavbarRU = () => {
                             <select onChange={(e) => setUz(e.target.value)} value={uz} className='inline-block mr-7' name="" id="">
                                 <option value="ru">RU</option>
                                 <option value="uz">UZ</option>
+                                <option value="eng">ENG</option>
                             </select>
                         </ul>
                     </div>
@@ -140,6 +144,7 @@ const NavbarRU = () => {
                                                 <select onChange={(e) => setUz(e.target.value)} value={uz} className='mt-4 text-black' name="" id="">
                                                     <option value="ru">RU</option>
                                                     <option value="uz">UZ</option>
+                                                    <option value="uz">ENG</option>
                                                 </select>
                                             </ul>
                                         </div>

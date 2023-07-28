@@ -8,7 +8,7 @@ const SectionOneRU = () => {
                     <div>
                         <div className='flex justify-center'>
                             <div className='w-[300px] h-full'>
-                                <h1 className="wavy text-xl">А вы знали, что употребление <span className='text-[#379EFF]'>большого количества воды:</span></h1>
+                                <h1 className="wavy text-xl text-center">А вы знали, что употребление <span className='text-[#379EFF]'>большого количества воды:</span></h1>
                             </div>
                         </div>
                         <br />

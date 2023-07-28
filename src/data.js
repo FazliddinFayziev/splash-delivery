@@ -132,6 +132,50 @@ export const Option8r = () => (
 );
 
 
+// Xizmatlat Shahar
+export const Option1eng = () => (
+    <div>
+        <p>every day</p>
+    </div>
+);
+export const Option2eng = () => (
+    <div>
+        <p>Wednesday, Saturday.</p>
+    </div>
+);
+export const Option3eng = () => (
+    <div>
+        <p>Wednesday, Saturday.</p>
+    </div>
+);
+export const Option4eng = () => (
+    <div>
+        <p>every day</p>
+    </div>
+);
+export const Option5eng = () => (
+    <div>
+        <p>Tuesday, Saturday.</p>
+    </div>
+);
+export const Option6eng = () => (
+    <div>
+        <p>every day</p>
+    </div>
+);
+export const Option7eng = () => (
+    <div>
+        <p>(Doʼrmon, Аrgʼin, Markaz, Chinobod, May qishlogʼi, Baytqoʼrgʼon, Xaydarobod maxallasi, Qodirlik, Mirzo-Ulugʼbek posyolkasi) – Tuesday, Saturday.</p>
+    </div>
+);
+
+export const Option8eng = () => (
+    <div>
+        <p>(Аmir Temur mahallasi, Geofizika, Selektsiya, Oʼnqoʼrgʼon, Gʼishtkoʼprik, Qoramurt, Madaniyat) - every day</p>
+    </div>
+);
+
+
 
 // Maxsulotlar
 export const Maxsulotlar = [
@@ -140,6 +184,7 @@ export const Maxsulotlar = [
         img: "https://res.cloudinary.com/dcrolfqsj/image/upload/v1675847652/1675846910957-removebg-preview_mtpz2f.png",
         title: "0.25 litr mineral suv",
         title2: "0,25 литра минеральной воды",
+        title3: "0.25 liters of mineral water",
         star: [
             {
                 id: 0,
@@ -160,6 +205,7 @@ export const Maxsulotlar = [
         img: "https://res.cloudinary.com/dcrolfqsj/image/upload/v1675844660/litr2-removebg-preview_gajfga.png",
         title: "0.5 litr mineral suv",
         title2: "0,5 литра минеральной воды",
+        title3: "0.5 liters of mineral water",
         star: [
             {
                 id: 0,
@@ -184,6 +230,7 @@ export const Maxsulotlar = [
         img: "https://res.cloudinary.com/dcrolfqsj/image/upload/v1675844660/litr3-removebg-preview_k2clgm.png",
         title: "0.7 litr mineral suv",
         title2: "0,7 литра минеральной воды",
+        title3: "0.7 liters of mineral water",
         star: [
             {
                 id: 0,
@@ -208,6 +255,7 @@ export const Maxsulotlar = [
         img: "https://res.cloudinary.com/dcrolfqsj/image/upload/v1675844660/litr4-removebg-preview_f6nhdh.png",
         title: "1.5 litr mineral suv",
         title2: "1,5 литра минеральной воды",
+        title3: "1.5 liters of mineral water",
         star: [
             {
                 id: 0,
@@ -232,6 +280,7 @@ export const Maxsulotlar = [
         img: "https://res.cloudinary.com/dcrolfqsj/image/upload/v1675844659/litr5-removebg-preview_ixvrwc.png",
         title: "5.0 litr mineral suv",
         title2: "5,0 литров минеральной воды",
+        title3: "5.0 liters of mineral water",
         star: [
             {
                 id: 0,
@@ -255,12 +304,13 @@ export const Maxsulotlar = [
             },
         ]
     },
-    // 20 L SUV
+    // 19 L SUV
     {
         id: 500,
         img: "https://res.cloudinary.com/dcrolfqsj/image/upload/v1689931300/splash-20_reig2m.jpg",
         title: "19 litr mineral suv",
         title2: "19 литров минеральной воды",
+        title3: "19 liters of mineral water",
         star: [
             {
                 id: 0,

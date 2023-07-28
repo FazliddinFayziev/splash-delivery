@@ -29,7 +29,7 @@ const XizmatUZ = () => {
                             <div className='w-[250px] h-full'>
                                 <div className='flex justify-center'>
                                     <div className=''>
-                                        <div className='w-[200px] h-[200px] p-5'>
+                                        <div className='w-[200px] h-[200px] p-5 ml-3'>
                                             <img className='w-full h-full object-cover object-center rounded-full' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675691030/damas_j5puoh.png" alt="damas" />
                                         </div>
                                         {/* delivery */}

@@ -1,14 +1,14 @@
 import React from 'react'
 
-const SectionOneUZ = () => {
+const SectionOneEng = () => {
     return (
         <>
-            <section id='suvUZ' className='w-full h-full bg-[#f8fcff] font-dosis font-semibold'>
+            <section id='suvENG' className='w-full h-full bg-[#f8fcff] font-dosis font-semibold'>
                 <div>
                     <div>
                         <div className='flex justify-center'>
-                            <div className='w-[150px] h-full'>
-                                <h1 className="wavy text-xl flex justify-center text-center" href="#">Ko'p suv ichishning ijobiy tomonlari</h1>
+                            <div className='w-[200px] h-full'>
+                                <h1 className="wavy text-xl flex justify-center text-center" href="#">Advantages of water</h1>
                             </div>
                         </div>
                         <br />
@@ -26,7 +26,7 @@ const SectionOneUZ = () => {
                                             {/* drop */}
                                             <img className='md:w-4 md:h-6 w-2 h-4' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="splash" />
                                             <p className='ml-[4px]'>
-                                                Mushaklar o'sishi uchun kerak
+                                                It is necessary for muscle growth
                                             </p>
                                         </div>
                                     </div>
@@ -39,7 +39,7 @@ const SectionOneUZ = () => {
                                             {/* drop */}
                                             <img className='md:w-4 md:h-6 w-2 h-4' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="splash" />
                                             <p className='ml-[4px]'>
-                                                Vazn yo'qotishni rag'batlantiradi
+                                                Promotes weight loss
                                             </p>
                                         </div>
                                     </div>
@@ -52,7 +52,7 @@ const SectionOneUZ = () => {
                                             {/* drop */}
                                             <img className='md:w-4 md:h-6 w-2 h-4' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="splash" />
                                             <p className='ml-[4px]'>
-                                                Jigarga yordam beradi
+                                                It helps the liver
                                             </p>
                                         </div>
                                     </div>
@@ -76,7 +76,7 @@ const SectionOneUZ = () => {
                                             {/* drop */}
                                             <img className='md:w-4 md:h-6 w-2 h-4' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="splash" />
                                             <p className='ml-[4px]'>
-                                                Yurak xuruji xavfini kamaytiradi
+                                                Reduces the risk of heart attack
                                             </p>
                                         </div>
                                     </div>
@@ -89,7 +89,7 @@ const SectionOneUZ = () => {
                                             {/* drop */}
                                             <img className='md:w-4 md:h-6 w-2 h-4' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="splash" />
                                             <p className='ml-[4px]'>
-                                                Immunitet tizimini mustahkamlaydi
+                                                Strengthens the immune system
                                             </p>
                                         </div>
                                     </div>
@@ -102,7 +102,7 @@ const SectionOneUZ = () => {
                                             {/* drop */}
                                             <img className='md:w-4 md:h-6 w-2 h-4' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="splash" />
                                             <p className='ml-[4px]'>
-                                                Terining ko'rinishini yaxshilaydi
+                                                Improves the appearance of the skin
                                             </p>
                                         </div>
                                     </div>
@@ -116,4 +116,4 @@ const SectionOneUZ = () => {
     )
 }
 
-export default SectionOneUZ
+export default SectionOneEng
