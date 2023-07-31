@@ -181,10 +181,10 @@ export const Option8eng = () => (
 export const Maxsulotlar = [
     {
         id: 100,
-        img: "https://res.cloudinary.com/dcrolfqsj/image/upload/v1675847652/1675846910957-removebg-preview_mtpz2f.png",
-        title: "0.25 litr mineral suv",
-        title2: "0,25 литра минеральной воды",
-        title3: "0.25 liters of mineral water",
+        img: "https://res.cloudinary.com/dcrolfqsj/image/upload/v1690590570/0.25-water-removebg-preview_aou9bz.png",
+        title: "0.25 kids",
+        title2: "0,25 kids",
+        title3: "0.25 kids",
         star: [
             {
                 id: 0,
@@ -228,9 +228,9 @@ export const Maxsulotlar = [
     {
         id: 300,
         img: "https://res.cloudinary.com/dcrolfqsj/image/upload/v1675844660/litr3-removebg-preview_k2clgm.png",
-        title: "0.7 litr mineral suv",
-        title2: "0,7 литра минеральной воды",
-        title3: "0.7 liters of mineral water",
+        title: "0.7 sport",
+        title2: "0,7 sport",
+        title3: "0.7 sport",
         star: [
             {
                 id: 0,
@@ -307,7 +307,7 @@ export const Maxsulotlar = [
     // 19 L SUV
     {
         id: 500,
-        img: "https://res.cloudinary.com/dcrolfqsj/image/upload/v1689931300/splash-20_reig2m.jpg",
+        img: "https://res.cloudinary.com/dcrolfqsj/image/upload/v1690590570/19-water-removebg-preview_r2b4jz.png",
         title: "19 litr mineral suv",
         title2: "19 литров минеральной воды",
         title3: "19 liters of mineral water",

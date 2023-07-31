@@ -18,57 +18,19 @@ const XizmatUZ = () => {
         <>
             <section id='xizmatUZ' className='font-dosis font-semibold bg-[#f8fcff]'>
                 <div className='flex justify-center'>
-                    <div className='w-[150px] h-full my-12'>
-                        <h1 className="wavy text-2xl flex justify-center" href="#">Bizning <span className='text-[#379EFF] ml-1'>Xizmat</span></h1>
+                    <div data-aos="fade-up"
+                        data-aos-duration="1000" className='w-[150px] h-full my-12'>
+                        <h1 className="wavy text-2xl flex justify-center text-center" href="#">Yetkazib berish Jadvali</h1>
                     </div>
                 </div>
                 <div className='flex justify-center'>
-                    <div className='w-full h-full flex justify-center items-center'>
+                    <div data-aos="fade-up"
+                        data-aos-duration="1000" className='w-full h-full flex justify-center items-center'>
                         <div className='grid md:grid-cols-3 mx-0 grid-cols-1 border-[1px] border-[#97cdff] card p-2 bg-white'>
                             {/* first */}
-                            <div className='w-[250px] h-full'>
-                                <div className='flex justify-center'>
-                                    <div className=''>
-                                        <div className='w-[200px] h-[200px] p-5 ml-3'>
-                                            <img className='w-full h-full object-cover object-center rounded-full' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675691030/damas_j5puoh.png" alt="damas" />
-                                        </div>
-                                        {/* delivery */}
-                                        <div className='flex'>
-                                            <div className='w-[60px] h-[50px]'>
-                                                <img className='w-full h-full object-cover object-center' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675691637/car-removebg-preview_nhmjda.png" alt="delivery" />
-                                            </div>
-                                            <div className='flex items-center'>
-                                                <div className='ml-[10px] w-[5px] h-[20px] border-l-2 border-indigo-500'></div>
-                                            </div>
-                                            <div className='flex items-center'>
-                                                <p className='w-full text-sm'><span className='text-[#379EFF]'>Tekin</span> yetkazib berish</p>
-                                            </div>
-                                        </div>
-                                        {/* date */}
-                                        <div className='flex'>
-                                            <div className='w-[60px] h-[50px]'>
-                                                <img className='w-full h-full object-cover object-center' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675761118/date-removebg-preview_bcpldo.png" alt="delivery" />
-                                            </div>
-                                            <div className='flex items-center'>
-                                                <div className='ml-[10px] w-[5px] h-[20px] border-l-2 border-indigo-500'></div>
-                                            </div>
-                                            <div className='flex items-center'>
-                                                <p className='w-full text-sm'>Haftasiga<span className='text-[#379EFF]'> 6 kun </span>  (Yakshanba dam olish kuni)</p>
-                                            </div>
-                                        </div>
-                                        {/* time */}
-                                        <div className='flex'>
-                                            <div className='w-[60px] h-[50px]'>
-                                                <img className='w-full h-full object-cover object-center' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675761297/time-removebg-preview_pqtclv.png" alt="delivery" />
-                                            </div>
-                                            <div className='flex items-center'>
-                                                <div className='ml-[10px] w-[5px] h-[20px] border-l-2 border-indigo-500'></div>
-                                            </div>
-                                            <div className='flex items-center'>
-                                                <p className='w-full text-sm'><span className='text-[#379EFF]'>9:00 - 22:00</span></p>
-                                            </div>
-                                        </div>
-                                    </div>
+                            <div className='w-[250px] h-full flex justify-center items-center'>
+                                <div className='w-[200px] h-[200px] p-5 ml-3'>
+                                    <img className='w-full h-full object-cover object-center rounded-full' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675691030/damas_j5puoh.png" alt="damas" />
                                 </div>
                             </div>
                             {/* second */}
@@ -118,22 +80,43 @@ const XizmatUZ = () => {
                                 </div>
                             </div>
                             {/* third */}
-                            <div className='w-[250px] h-full'>
-                                <div className='flex justify-center'>
-                                    <div className='w-[200px] h-[200px] p-5'>
-                                        <img className='w-full h-full object-cover object-center rounded-full' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675794222/remont_ondboz.jpg" alt="damas" />
+                            <div className='w-[250px] h-full flex justify-center items-center p-4'>
+                                <div>
+                                    {/* delivery */}
+                                    <div className='flex'>
+                                        <div className='w-[60px] h-[50px]'>
+                                            <img className='w-full h-full object-cover object-center' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675691637/car-removebg-preview_nhmjda.png" alt="delivery" />
+                                        </div>
+                                        <div className='flex items-center'>
+                                            <div className='ml-[10px] w-[5px] h-[20px] border-l-2 border-indigo-500'></div>
+                                        </div>
+                                        <div className='flex items-center'>
+                                            <p className='w-full text-sm'><span className='text-[#379EFF]'>Tekin</span> yetkazib berish</p>
+                                        </div>
                                     </div>
-                                </div>
-                                {/* delivery */}
-                                <div className='flex'>
-                                    <div className='w-[60px] h-[50px]'>
-                                        <img className='w-full h-full object-cover object-center' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675794368/remo-removebg-preview_nuwe8q.png" alt="cooler" />
+                                    {/* date */}
+                                    <div className='flex'>
+                                        <div className='w-[60px] h-[50px]'>
+                                            <img className='w-full h-full object-cover object-center' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675761118/date-removebg-preview_bcpldo.png" alt="delivery" />
+                                        </div>
+                                        <div className='flex items-center'>
+                                            <div className='ml-[10px] w-[5px] h-[20px] border-l-2 border-indigo-500'></div>
+                                        </div>
+                                        <div className='flex items-center'>
+                                            <p className='w-full text-sm'>Haftasiga<span className='text-[#379EFF]'> 6 kun </span></p>
+                                        </div>
                                     </div>
-                                    <div className='flex items-center'>
-                                        <div className='ml-[10px] w-[5px] h-[20px] border-l-2 border-indigo-500'></div>
-                                    </div>
-                                    <div className='flex items-center'>
-                                        <p className='w-full text-sm'><span className='text-[#379EFF]'>Remont</span> Cooler</p>
+                                    {/* time */}
+                                    <div className='flex'>
+                                        <div className='w-[60px] h-[50px]'>
+                                            <img className='w-full h-full object-cover object-center' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675761297/time-removebg-preview_pqtclv.png" alt="delivery" />
+                                        </div>
+                                        <div className='flex items-center'>
+                                            <div className='ml-[10px] w-[5px] h-[20px] border-l-2 border-indigo-500'></div>
+                                        </div>
+                                        <div className='flex items-center'>
+                                            <p className='w-full text-sm'><span className='text-[#379EFF]'>9:00 - 23:00</span></p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

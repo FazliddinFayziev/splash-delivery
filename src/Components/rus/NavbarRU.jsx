@@ -81,7 +81,7 @@ const NavbarRU = () => {
                                 </HashLink>
                                 <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-blue-400 transition-all group-hover:w-full"></span>
                             </li>
-                            <select onChange={(e) => setUz(e.target.value)} value={uz} className='inline-block mr-7' name="" id="">
+                            <select onChange={(e) => setUz(e.target.value)} value={uz} className='inline-block mr-7 cursor-pointer' name="" id="">
                                 <option value="ru">RU</option>
                                 <option value="uz">UZ</option>
                                 <option value="eng">ENG</option>
@@ -94,7 +94,7 @@ const NavbarRU = () => {
                             nav ? (
                                 <div className='top-0 right-0 fixed z-10 w-[50%] h-full bg-[#379EFF] translate-x-0 ease-in-out duration-300'>
                                     <div className='mt-[10px] ml-[10px]'>
-                                        <AiOutlineClose fontSize={30} color="white" onClick={handleClose} />
+                                        <AiOutlineClose className='cursor-pointer' fontSize={30} color="white" onClick={handleClose} />
                                     </div>
                                     <div className='flex justify-center'>
                                         <div className='w-[100px] h-full'>
@@ -141,10 +141,10 @@ const NavbarRU = () => {
                                                     </HashLink>
                                                     <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white transition-all group-hover:w-full"></span>
                                                 </li>
-                                                <select onChange={(e) => setUz(e.target.value)} value={uz} className='mt-4 text-black' name="" id="">
+                                                <select onChange={(e) => setUz(e.target.value)} value={uz} className='mt-4 text-black cursor-pointer' name="" id="">
                                                     <option value="ru">RU</option>
                                                     <option value="uz">UZ</option>
-                                                    <option value="uz">ENG</option>
+                                                    <option value="eng">ENG</option>
                                                 </select>
                                             </ul>
                                         </div>
@@ -156,7 +156,7 @@ const NavbarRU = () => {
                         }
                     </div>
                     <div className='md:hidden flex items-center mr-7'>
-                        <GiHamburgerMenu fontSize={30} color="#379EFF" onClick={handleNav} />
+                        <GiHamburgerMenu className='cursor-pointer' fontSize={30} color="#379EFF" onClick={handleNav} />
                     </div>
                 </div>
             </div>

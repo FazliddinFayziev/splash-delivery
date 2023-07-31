@@ -54,15 +54,16 @@ export default class MaxsulotRU extends Component {
                             {
                                 Maxsulotlar.map((maxsulot) => {
                                     return (
-                                        <div key={maxsulot.id} className="w-full h-full flex">
-                                            <div className="flex justify-center">
+                                        <div data-aos="fade-up"
+                                            data-aos-duration="1000" key={maxsulot.id} className="w-full h-full flex">
+                                            <div className="flex justify-center mx-2 p-2">
                                                 <div className="border-[1px] border-[#379EFF] w-[250px] h-[400px] card bg-white">
                                                     <div className="flex justify-center my-8">
                                                         <div className="w-[97px] h-[150px]">
                                                             <img className="w-full h-full object-cover object-center" src={maxsulot.img} alt="splash-suv" />
                                                         </div>
                                                     </div>
-                                                    <div className="flex justify-center my-8">
+                                                    <div className="flex justify-center my-8 text-center text-[15px]">
                                                         <h2>{maxsulot.title2}</h2>
                                                     </div>
                                                     <div className="flex justify-center">

@@ -70,7 +70,7 @@ const FooterUZ = () => (
                                 </li>
                                 <li className='relative group w-[55px] mt-2'>
                                     <HashLink smooth to="#locationUZ">
-                                        Joylashuv
+                                        Lokatsiya
                                     </HashLink>
                                     <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white transition-all group-hover:w-full"></span>
                                 </li>
@@ -96,25 +96,11 @@ const FooterUZ = () => (
                                 {/* 2 */}
                                 <div className='flex mt-2'>
                                     <div className='mr-2'>
-                                        <FaPhoneAlt fontSize={20} />
-                                    </div>
-                                    <h1><a href="tel:+998 71 208 9119">+998 97 425 9119</a></h1>
-                                </div>
-                                {/* 3 */}
-                                <div className='flex mt-2'>
-                                    <div className='mr-2'>
-                                        <TbWorld fontSize={20} />
-                                    </div>
-                                    <h1><a href="https://www.splash.uz">www.splash.uz</a></h1>
-                                </div>
-                                {/* 4 */}
-                                <div className='flex mt-2'>
-                                    <div className='mr-2'>
                                         <BsTelegram fontSize={20} />
                                     </div>
                                     <h1><a href="https://t.me/splashwaterbot">t.me/splashwaterbot</a></h1>
                                 </div>
-                                {/* 5 */}
+                                {/* 3 */}
                                 <div className='flex mt-2'>
                                     <div className='mr-2'>
                                         <AiFillInstagram fontSize={20} />

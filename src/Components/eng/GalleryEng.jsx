@@ -46,7 +46,8 @@ export default class GalleryEng extends Component {
                 <div className="flex justify-center font-dosis font-semibold bg-[#f8fcff]">
                     <div className="w-[80%]">
                         <div className='flex justify-center my-8'>
-                            <div className='w-[150px] h-full'>
+                            <div data-aos="fade-up"
+                                data-aos-duration="1000" className='w-[150px] h-full'>
                                 <h1 className="wavy text-2xl flex justify-center" href="#">Gallery</h1>
                             </div>
                         </div>
@@ -54,7 +55,8 @@ export default class GalleryEng extends Component {
                             {
                                 Gallery.map((galler) => {
                                     return (
-                                        <div key={galler.id} className="w-full h-full">
+                                        <div data-aos="fade-up"
+                                            data-aos-duration="1000" key={galler.id} className="w-full h-full">
                                             <div className="flex justify-center">
                                                 <div className="border-[1px] border-[#379EFF] w-[200px] h-[200px] md:w-[300px] md:h-[300px] card">
                                                     <img className="w-full h-full object-cover object-center" src={galler.img} alt="splash-suv" />

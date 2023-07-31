@@ -35,7 +35,8 @@ const NewUZ = () => {
                 <div className='grid grid-cols-3 max-sm:grid-cols-1 max-md:grid-cols-1 max-lg:grid-cols-2 max-xl:grid-cols-3 max-2xl:grid-col-4'>
                     {users && users.map((data, i) => {
                         return (
-                            <div key={i}>
+                            <div data-aos="fade-up"
+                                data-aos-duration="1000" className='my-4' key={i}>
                                 <News {...data} />
                             </div>
                         )

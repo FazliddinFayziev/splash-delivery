@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { db } from "../../firebaseConfig"
+import { db } from "../../firebaseConfig";
 import { collection, onSnapshot } from 'firebase/firestore';
 import News from './News'
 
@@ -7,7 +7,7 @@ const NewEng = () => {
     const [users, setUsers] = useState([]);
 
     useEffect(() => {
-        const unsub = onSnapshot(collection(db, "NewsUZ"), (snapshot) => {
+        const unsub = onSnapshot(collection(db, "NewsENG"), (snapshot) => {
             let list = [];
             snapshot.docs.forEach((doc) => {
                 list.push({ id: doc.id, ...doc.data() })
@@ -35,7 +35,8 @@ const NewEng = () => {
                 <div className='grid grid-cols-3 max-sm:grid-cols-1 max-md:grid-cols-1 max-lg:grid-cols-2 max-xl:grid-cols-3 max-2xl:grid-col-4'>
                     {users && users.map((data, i) => {
                         return (
-                            <div key={i}>
+                            <div data-aos="fade-up"
+                                data-aos-duration="1000" className='my-4' key={i}>
                                 <News {...data} />
                             </div>
                         )

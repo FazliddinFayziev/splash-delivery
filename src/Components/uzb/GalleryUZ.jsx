@@ -54,7 +54,8 @@ export default class GalleryUZ extends Component {
                             {
                                 Gallery.map((galler) => {
                                     return (
-                                        <div key={galler.id} className="w-full h-full">
+                                        <div data-aos="fade-up"
+                                            data-aos-duration="1000" key={galler.id} className="w-full h-full">
                                             <div className="flex justify-center">
                                                 <div className="border-[1px] border-[#379EFF] w-[200px] h-[200px] md:w-[300px] md:h-[300px] card">
                                                     <img className="w-full h-full object-cover object-center" src={galler.img} alt="splash-suv" />

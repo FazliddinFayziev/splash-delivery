@@ -3,12 +3,14 @@ import React from "react";
 const LocationSection = () => {
     return (
         <section id="locationUZ" className="py-10 font-dosis font-semibold bg-[#f8fcff]">
-            <div className='flex justify-center my-8'>
+            <div data-aos="fade-up"
+                data-aos-duration="1000" className='flex justify-center my-8'>
                 <div className='w-[150px] h-full'>
-                    <h1 className="wavy text-2xl flex justify-center" href="#">Joylashuv</h1>
+                    <h1 className="wavy text-2xl flex justify-center" href="#">Lokatsiya</h1>
                 </div>
             </div>
-            <div className="flex items-center justify-center">
+            <div data-aos="fade-up"
+                data-aos-duration="1000" className="flex items-center justify-center">
                 <iframe
                     className="w-[60%] h-[300px] border-2 border-gray-400"
                     src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d5988.537632173082!2d69.365992!3d41.368244!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDIyJzA1LjciTiA2OcKwMjEnNTcuNiJF!5e0!3m2!1sru!2smy!4v1676093322970!5m2!1sru!2smy"
@@ -18,7 +20,8 @@ const LocationSection = () => {
                     marginWidth="0"
                 ></iframe>
             </div>
-            <p className="text-center mt-6 text-gray-600">
+            <p data-aos="fade-up"
+                data-aos-duration="1000" className="text-center mt-6 text-gray-600">
                 Splash, Abdurauf Fitrat ko'chasi, Qibray, Узбекистан
             </p>
         </section>

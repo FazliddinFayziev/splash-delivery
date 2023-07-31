@@ -10,7 +10,7 @@ module.exports = {
         'dosis': 'Dosis'
       },
       backgroundImage: {
-        'hero': "url('https://res.cloudinary.com/dcrolfqsj/image/upload/v1675408304/wave1-removebg-preview__6_-removebg-preview_bhfl4f.png')",
+        'hero': "url('https://res.cloudinary.com/dcrolfqsj/image/upload/v1690598573/photo_2023-07-29_10-40-54_c8mq2y.jpg')"
       },
     },
   },
