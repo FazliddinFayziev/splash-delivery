@@ -16,7 +16,7 @@ const XizmatEng = () => {
     const [selectedOption, setSelectedOption] = useState(jadvallar[0].value);
     return (
         <>
-            <section id='xizmatENG' className='font-dosis font-semibold bg-[#f8fcff]'>
+            <section className='font-dosis font-semibold bg-[#f8fcff]'>
                 <div className='flex justify-center'>
                     <div data-aos="fade-up"
                         data-aos-duration="1000" className='w-[150px] h-full my-12'>

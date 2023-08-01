@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { BsFillDropletFill } from "react-icons/bs";
 
 const TarkibRU = () => {
     return (
@@ -6,122 +7,155 @@ const TarkibRU = () => {
 
             {/* DESKTOP VERSION */}
 
-            <section id='tarkibUZ' className='md:block hidden w-full h-full bg-[#f8fcff] font-dosis my-[100px]'>
-                <div>
-                    <div>
-                        <div data-aos="fade-up"
-                            data-aos-duration="1000" className='flex justify-center'>
-                            <div className='w-[150px] h-full'>
-                                <h3 className="wavy text-[15px] md:text-xl flex justify-center text-center" href="#">Содержание воды</h3>
-                            </div>
+            <section id="suvUZ" className="md:block hidden w-full h-full bg-[#f8fcff] font-dosis my-[100px]">
+                <div data-aos="fade-up"
+                    data-aos-duration="1000" className='flex justify-center my-[100px]'>
+                    <div className='w-[150px] h-full'>
+                        <h3 className="wavy text-[15px] md:text-xl flex justify-center text-center" href="#">Уровни очистки питьевой воды Splash:</h3>
+                    </div>
+                </div >
+                {/* <div className="container mt-4"> */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {/* Left Side: Main Image */}
+                    <div className='h-[100%] mx-auto flex justify-center items-center'>
+                        <div className="h-[70%] w-[100%]">
+                            <img className='w-full h-full object-cover' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1690678818/water_wlasiw.jpg" alt="splash" />
                         </div>
-                        <br />
-                        <div className='flex justify-evenly md:text-[20px] sm:text-[15px] text-[12px] mx-4 text-center'>
+                    </div>
 
-                            {/* div 1 */}
-                            <div className='flex justify-center items-center w-[33%]'>
-                                <div className=''>
-                                    {/* img-1 */}
-                                    <div data-aos="fade-up" className='mt-4 ml-[80px]'>
-                                        <div className='flex justify-center'>
-                                            <img className='md:w-[30px] md:h-[40px] w-[20px] h-[30px]' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="strong" />
-                                        </div>
-                                        <div>
-                                            <p className='text-[12px] font-semibold'>
-                                                Цех водоподготовки:
-                                            </p>
-                                            <p className='text-[12px]'>Цех водоподготовки.
-                                                На начальном этапе производства вода из источника поступает в накопительные емкости, а затем проходит через систему фильтров очистки.</p>
-                                        </div>
+                    {/* Right Side: Text with Drop Images */}
+                    <div className="flex flex-col justify-center items-center mx-auto w-full">
+                        <div className='pr-10'>
+                            {/* Text 1 */}
+                            <div data-aos="fade-up" className="my-4">
+                                <div>
+                                    <div className='flex'>
+                                        <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                        <p className=" text-[15px] font-semibold">Производство воды “Splash” начинается с цеха водоподготовки:</p>
                                     </div>
-                                    {/* img-2 */}
-                                    <div data-aos="fade-up" className='mt-4 mr-[20px]'>
-                                        <div className='flex justify-center'>
-                                            <img className='md:w-[30px] md:h-[40px] w-[20px] h-[30px]' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="weight" />
-                                        </div>
-                                        <div>
-                                            <p className='text-[12px] font-semibold'>
-                                                Начальные этапы очистки:
-                                            </p>
-                                            <p className='text-[12px]'>
-                                                Очищается через песчаный фильтр, задерживающий механические частицы, и отстойник, в котором твердые частицы оседают на дне резервуара.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    {/* img-3 */}
-                                    <div data-aos="fade-up" className='mt-4 ml-[80px]'>
-                                        <div className='flex justify-center'>
-                                            <img className='md:w-[30px] md:h-[40px] w-[20px] h-[30px]' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="liver" />
-                                        </div>
-                                        <div>
-                                            <p className='text-[12px] font-semibold'>
-                                                Третий этап очистки:
-                                            </p>
-                                            <p className='text-[12px]'>
-                                                Полимерный фильтр удаляет из воды карбонатную жесткость, сохраняя при этом полезные микроэлементы, соли кальция и магния.
-                                            </p>
-                                        </div>
-                                    </div>
+                                    <p className='text-[15px]'>
+                                        Цех водоподготовки.
+                                        На начальном этапе производства вода из источника поступает в накопительные емкости, а затем проходит через систему фильтров очистки.
+                                    </p>
                                 </div>
                             </div>
 
-                            {/* div 2 */}
-                            <div data-aos="fade-up"
-                                data-aos-duration="1000" className='md:w-[33%] md:h-[30%] h-[50%] w-[50%] mt-10'>
-                                <img src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1690678818/water_wlasiw.jpg" alt="splash" />
+                            {/* Text 2 */}
+                            <div data-aos="fade-up" className="my-4">
+                                <div>
+                                    <div className='flex'>
+                                        <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                        <p className="text-[15px] font-semibold">Первый этап очистки:</p>
+                                    </div>
+                                    <p className="text-[15px]">
+                                        песочный фильтр/фильтр грубой очистки (Sediment Filter).
+                                        Вода проходит через слой кварцевого песка, который удерживает в себе механические частички, находящиеся в воде. Таким образом на этом этапе происходит очищение воды от 90% взвешенных частиц.
+                                    </p>
+                                </div>
                             </div>
 
-                            {/* div 3 */}
-                            <div className='flex justify-center items-center w-[33%]'>
-                                <div className=''>
-                                    {/* img-1 */}
-                                    <div data-aos="fade-up" className='mt-4 mr-[80px]'>
-                                        <div className='flex justify-center'>
-                                            <img className='md:w-[30px] md:h-[40px] w-[20px] h-[30px]' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="strong" />
-                                        </div>
-                                        <div>
-                                            <p className='text-[12px] font-semibold'>
-                                                Дальнейшие этапы очистки:
-                                            </p>
-                                            <p className='text-[12px]'>
-                                                На следующем этапе используется угольный фильтр предварительной очистки, задерживающий посторонние запахи и органику, и вода становится пригодной для использования.
-                                            </p>
-                                        </div>
+                            {/* Text 3 */}
+                            <div data-aos="fade-up" className="my-4">
+                                <div>
+                                    <div className='flex'>
+                                        <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                        <p className="text-[15px] font-semibold">Второй этап очистки:</p>
                                     </div>
-                                    {/* img-2 */}
-                                    <div data-aos="fade-up" className='mt-4 ml-[20px]'>
-                                        <div className='flex justify-center'>
-                                            <img className='md:w-[30px] md:h-[40px] w-[20px] h-[30px]' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="weight" />
-                                        </div>
-                                        <div>
-                                            <p className='text-[12px] font-semibold'>
-                                                Завершающий этап очистки:
-                                            </p>
-                                            <p className='text-[12px]'>
-                                                УФ-лампа очищает воду от микроорганизмов, уменьшает их количество и подавляет их способность к размножению. Санитарный ультрафильтр уничтожает погибшие микроорганизмы после воздействия кварцевой лампы.
-                                            </p>
-                                        </div>
+                                    <p className="text-[15px]">
+                                        процесс отстаивание - суть процесса состоит в том, что под воздействием сил гравитации твердые частицы загрязнений (металлов и других веществ), оседают на дне сосуда с водой.
+                                    </p>
+                                </div>
+                            </div>
+
+                            {/* Text 4 */}
+                            <div data-aos="fade-up" className="my-4">
+                                <div>
+                                    <div className='flex'>
+                                        <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                        <p className="text-[15px] font-semibold">Третий этап очистки:</p>
                                     </div>
-                                    {/* img-3 */}
-                                    <div data-aos="fade-up" className='mt-4 mr-[80px]'>
-                                        <div className='flex justify-center'>
-                                            <img className='md:w-[30px] md:h-[40px] w-[20px] h-[30px]' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="liver" />
-                                        </div>
-                                        <div>
-                                            <p className='text-[12px] font-semibold'>
-                                                Последний этап:
-                                            </p>
-                                            <p className='text-[12px]'>
-                                                Вода насыщается кислородом для обеззараживания, а затем направляется в резервуары для хранения для розлива.
-                                            </p>
-                                        </div>
+                                    <p className="text-[15px]">
+                                        «смоляной фильтр».
+                                        Проходя через смоляную мембрану фильтра, вода избавляется от ненужной корбонатной жесткости, сохраняя в себе все полезные микроэлементы и необходимые для организма человека соли кальция и магния.
+                                    </p>
+                                </div>
+                            </div>
+
+                            {/* Text 5 */}
+                            <div data-aos="fade-up" className="my-4">
+                                <div>
+                                    <div className='flex'>
+                                        <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                        <p className="text-[15px] font-semibold">Четвертый этап:</p>
                                     </div>
+                                    <p className="text-[15px]">
+                                        «угольный префильтр» (Carbon Pre-Filter).
+                                        Уголь обладает уникальным абсорбирующим эффектом, благодаря которому он удерживает в себе все посторонние запахи и органические вещества, ухудшающие качество воды.
+                                    </p>
+                                </div>
+                            </div>
+
+                            {/* Text 6 */}
+                            <div data-aos="fade-up" className="my-4">
+                                <div>
+                                    <div className='flex'>
+                                        <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                        <p className="text-[15px] font-semibold">Пятый и шестые этапы:</p>
+                                    </div>
+                                    <p className="text-[15px]">
+                                        система мелкопористых фильтров от 5 до 2 мкм.
+                                        Их функция – очищение воды от примесей на молекулярном уровне.
+                                    </p>
+                                </div>
+                            </div>
+
+                            {/* Text 7 */}
+                            <div data-aos="fade-up" className="my-4">
+                                <div>
+                                    <div className='flex'>
+                                        <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                        <p className="text-[15px] font-semibold">Седьмой этап:</p>
+                                    </div>
+                                    <p className="text-[15px]">
+                                        ультрафиолетовая лампа (UV lamp).
+                                        Ультрафиолетовая лампа очищает воду от микроорганизмов, которые существуют в воде, т.е. под воздействием ультрафиолетового излучения уменьшается общее микробное число и подавляется способность вирусов и бактерий к репродукции.
+                                    </p>
+                                </div>
+                            </div>
+
+                            {/* Text 8 */}
+                            <div data-aos="fade-up" className="my-4">
+                                <div>
+                                    <div className='flex'>
+                                        <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                        <p className="text-[15px] font-semibold">Восьмой этап очистки:</p>
+                                    </div>
+                                    <p className="text-[15px]">
+                                        санитарный ультрафильтр.
+                                        Он избавляет воду от мертвых микроорганизмов, которые погибли во время облучения кварцевой лампой.
+                                    </p>
+                                </div>
+                            </div>
+
+                            {/* Text 9 */}
+                            <div data-aos="fade-up" className="my-4">
+                                <div>
+                                    <div className='flex'>
+                                        <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                        <p className="text-[15px] font-semibold">И наконец последний этап озонатор:</p>
+                                    </div>
+                                    <p className="text-[15px]">
+                                        На этом этапе вода обогащается активным кислородом, благодаря которому она дезинфицируется.
+                                        Очищенная вода поступает в накопительные цистерны (нижний уровень цистерн) и по системе труб поступает на розлив в производственный цех.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </section>
+
 
             {/* MOBILE VERSION */}
 
@@ -129,7 +163,7 @@ const TarkibRU = () => {
                 <div data-aos="fade-up"
                     data-aos-duration="1000" className='flex justify-center'>
                     <div className='w-[150px] h-full'>
-                        <h3 className="wavy text-[15px] md:text-xl flex justify-center text-center" href="#">Содержание воды</h3>
+                        <h3 className="wavy text-[15px] md:text-xl flex justify-center text-center" href="#">Уровни очистки питьевой воды Splash:</h3>
                     </div>
                 </div >
                 <div data-aos="fade-up"
@@ -142,93 +176,149 @@ const TarkibRU = () => {
                 <div>
                     {/* TEXT - 1 */}
                     <div data-aos="fade-up"
-                        data-aos-duration="1000" className='flex justify-start p-2'>
-                        <div className='flex justify-center items-center p-4'>
-                            <img className='w-[25px] h-[20px] sm:w-[25px] sm:h-[30px]' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="strong" />
-                        </div>
+                        data-aos-duration="1000" className='flex justify-center p-2 my-4 mx-4'>
                         <div>
-                            <p className='text-[15px] font-semibold'>
-                                Цех водоподготовки:
+                            <div className='flex'>
+                                <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                <p className='text-[15px] font-semibold'>
+                                    Производство воды “Splash” начинается с цеха водоподготовки:
+                                </p>
+                            </div>
+                            <p className='text-[15px]'>
+                                Цех водоподготовки. На начальном этапе производства вода из источника поступает в накопительные емкости, а затем проходит через систему фильтров очистки.
                             </p>
-                            <p className='text-[15px]'>Цех водоподготовки.
-                                На начальном этапе производства вода из источника поступает в накопительные емкости, а затем проходит через систему фильтров очистки.</p>
                         </div>
                     </div>
 
                     {/* TEXT - 2 */}
                     <div data-aos="fade-up"
-                        data-aos-duration="1000" className='flex justify-start p-2'>
-                        <div className='flex justify-center items-center p-4'>
-                            <img className='w-[25px] h-[20px] sm:w-[25px] sm:h-[30px]' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="strong" />
-                        </div>
+                        data-aos-duration="1000" className='flex justify-center p-2 my-4 mx-4'>
                         <div>
-                            <p className='text-[15px] font-semibold'>
-                                Начальные этапы очистки:
-                            </p>
+                            <div className='flex'>
+                                <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                <p className='text-[15px] font-semibold'>
+                                    Первый этап очистки:
+                                </p>
+                            </div>
                             <p className='text-[15px]'>
-                                Очищается через песчаный фильтр, задерживающий механические частицы, и отстойник, в котором твердые частицы оседают на дне резервуара.
+                                песочный фильтр/фильтр грубой очистки (Sediment Filter).
+                                Вода проходит через слой кварцевого песка, который удерживает в себе механические частички, находящиеся в воде. Таким образом на этом этапе происходит очищение воды от 90% взвешенных частиц.
                             </p>
                         </div>
                     </div>
 
                     {/* TEXT - 3 */}
                     <div data-aos="fade-up"
-                        data-aos-duration="1000" className='flex justify-start p-2'>
-                        <div className='flex justify-center items-center p-4'>
-                            <img className='w-[25px] h-[20px] sm:w-[25px] sm:h-[30px]' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="strong" />
-                        </div>
+                        data-aos-duration="1000" className='flex justify-center p-2 my-4 mx-4'>
                         <div>
-                            <p className='text-[15px] font-semibold'>
-                                Третий этап очистки:
-                            </p>
+                            <div className='flex'>
+                                <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                <p className='text-[15px] font-semibold'>
+                                    Второй этап очистки:
+                                </p>
+                            </div>
                             <p className='text-[15px]'>
-                                Полимерный фильтр удаляет из воды карбонатную жесткость, сохраняя при этом полезные микроэлементы, соли кальция и магния.
+                                процесс отстаивание - суть процесса состоит в том, что под воздействием сил гравитации твердые частицы загрязнений (металлов и других веществ), оседают на дне сосуда с водой.
                             </p>
                         </div>
                     </div>
 
                     {/* TEXT - 4 */}
                     <div data-aos="fade-up"
-                        data-aos-duration="1000" className='flex justify-start p-2'>
-                        <div className='flex justify-center items-center p-4'>
-                            <img className='w-[25px] h-[20px] sm:w-[35px] sm:h-[30px]' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="strong" />
-                        </div>
+                        data-aos-duration="1000" className='flex justify-center p-2 my-4 mx-4'>
                         <div>
-                            <p className='text-[15px] font-semibold'>
-                                Дальнейшие этапы очистки:
-                            </p>
-                            <p className='text-[15px]'>На следующем этапе используется угольный фильтр предварительной очистки, задерживающий посторонние запахи и органику, и вода становится пригодной для использования.</p>
+                            <div className='flex'>
+                                <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                <p className='text-[15px] font-semibold'>
+                                    Третий этап очистки:
+                                </p>
+                            </div>
+                            <p className='text-[15px]'>«смоляной фильтр».
+                                Проходя через смоляную мембрану фильтра, вода избавляется от ненужной корбонатной жесткости, сохраняя в себе все полезные микроэлементы и необходимые для организма человека соли кальция и магния.</p>
                         </div>
                     </div>
 
                     {/* TEXT - 5 */}
                     <div data-aos="fade-up"
-                        data-aos-duration="1000" className='flex justify-start p-2'>
-                        <div className='flex justify-center items-center p-4'>
-                            <img className='w-[35px] h-[20px] sm:w-[38px] sm:h-[30px]' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="strong" />
-                        </div>
+                        data-aos-duration="1000" className='flex justify-center p-2 my-4 mx-4'>
                         <div>
-                            <p className='text-[15px] font-semibold'>
-                                Завершающий этап очистки:
-                            </p>
+                            <div className='flex'>
+                                <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                <p className='text-[15px] font-semibold'>
+                                    Четвертый этап:
+                                </p>
+                            </div>
                             <p className='text-[15px]'>
-                                УФ-лампа очищает воду от микроорганизмов, уменьшает их количество и подавляет их способность к размножению. Санитарный ультрафильтр уничтожает погибшие микроорганизмы после воздействия кварцевой лампы.
+                                «угольный префильтр» (Carbon Pre-Filter).
+                                Уголь обладает уникальным абсорбирующим эффектом, благодаря которому он удерживает в себе все посторонние запахи и органические вещества, ухудшающие качество воды.
                             </p>
                         </div>
                     </div>
 
                     {/* TEXT - 6 */}
                     <div data-aos="fade-up"
-                        data-aos-duration="1000" className='flex justify-start p-2'>
-                        <div className='flex justify-center items-center p-4'>
-                            <img className='w-[25px] h-[20px] sm:w-[25px] sm:h-[30px]' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="strong" />
-                        </div>
+                        data-aos-duration="1000" className='flex justify-center p-2 my-4 mx-4'>
                         <div>
-                            <p className='text-[15px] font-semibold'>
-                                Последний этап:
-                            </p>
+                            <div className='flex'>
+                                <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                <p className='text-[15px] font-semibold'>
+                                    Пятый и шестые этапы:
+                                </p>
+                            </div>
                             <p className='text-[15px]'>
-                                Вода насыщается кислородом для обеззараживания, а затем направляется в резервуары для хранения для розлива.
+                                система мелкопористых фильтров от 5 до 2 мкм.
+                                Их функция – очищение воды от примесей на молекулярном уровне.
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* TEXT - 7 */}
+                    <div data-aos="fade-up"
+                        data-aos-duration="1000" className='flex justify-center p-2 my-4 mx-4'>
+                        <div>
+                            <div className='flex'>
+                                <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                <p className='text-[15px] font-semibold'>
+                                    Седьмой этап:
+                                </p>
+                            </div>
+                            <p className='text-[15px]'>
+                                ультрафиолетовая лампа (UV lamp).
+                                Ультрафиолетовая лампа очищает воду от микроорганизмов, которые существуют в воде, т.е. под воздействием ультрафиолетового излучения уменьшается общее микробное число и подавляется способность вирусов и бактерий к репродукции.
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* TEXT - 8 */}
+                    <div data-aos="fade-up"
+                        data-aos-duration="1000" className='flex justify-center p-2 my-4 mx-4'>
+                        <div>
+                            <div className='flex'>
+                                <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                <p className='text-[15px] font-semibold'>
+                                    Восьмой этап очистки:
+                                </p>
+                            </div>
+                            <p className='text-[15px]'>
+                                санитарный ультрафильтр.
+                                Он избавляет воду от мертвых микроорганизмов, которые погибли во время облучения кварцевой лампой.
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* TEXT - 9 */}
+                    <div data-aos="fade-up"
+                        data-aos-duration="1000" className='flex justify-center p-2 my-4 mx-4'>
+                        <div>
+                            <div className='flex'>
+                                <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                <p className='text-[15px] font-semibold'>
+                                    И наконец последний этап озонатор:
+                                </p>
+                            </div>
+                            <p className='text-[15px]'>
+                                На этом этапе вода обогащается активным кислородом, благодаря которому она дезинфицируется.
+                                Очищенная вода поступает в накопительные цистерны (нижний уровень цистерн) и по системе труб поступает на розлив в производственный цех.
                             </p>
                         </div>
                     </div>

@@ -28,7 +28,7 @@ const NewRU = () => {
             <section className='font-dosis font-semibold bg-[#f8fcff] h-full'>
                 <div className='flex justify-center py-4'>
                     <div className='w-[150px] h-full'>
-                        <h1 className="wavy text-2xl flex justify-center" href="#"><span className='text-[#379EFF] mr-1'>Splash</span> delivery <span className='text-[#379EFF] ml-1'>News</span></h1>
+                        <h1 className="wavy text-2xl flex justify-center" href="#"><span className='text-[#379EFF] mr-1'>Splash</span> Новости </h1>
                     </div>
                 </div>
                 <div className='h-full grid grid-cols-3 max-sm:grid-cols-1 max-md:grid-cols-1 max-lg:grid-cols-2 max-xl:grid-cols-3 max-2xl:grid-col-4'>

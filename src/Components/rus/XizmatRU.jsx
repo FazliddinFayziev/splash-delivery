@@ -16,11 +16,11 @@ const XizmatRU = () => {
     const [selectedOption, setSelectedOption] = useState(jadvallar[0].value);
     return (
         <>
-            <section id='xizmatRU' className='font-dosis font-semibold bg-[#f8fcff]'>
+            <section className='font-dosis font-semibold bg-[#f8fcff]'>
                 <div className='flex justify-center'>
                     <div data-aos="fade-up"
                         data-aos-duration="1000" className='w-[150px] h-full my-12'>
-                        <h1 className="wavy text-2xl flex justify-center" href="#">Наш <span className='text-[#379EFF] ml-1'>График</span></h1>
+                        <h1 className="wavy text-2xl flex justify-center text-center" href="#">Наш График доставки</h1>
                     </div>
                 </div>
                 <div className='flex justify-center'>

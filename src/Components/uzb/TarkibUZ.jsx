@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { BsFillDropletFill } from "react-icons/bs";
 
 const TarkibUZ = () => {
     return (
@@ -6,122 +7,154 @@ const TarkibUZ = () => {
 
             {/* DESKTOP VERSION */}
 
-            <section id='tarkibUZ' className='md:block hidden w-full h-full bg-[#f8fcff] font-dosis my-[100px]'>
-                <div>
-                    <div>
-                        <div data-aos="fade-up"
-                            data-aos-duration="1000" className='flex justify-center'>
-                            <div className='w-[150px] h-full'>
-                                <h3 className="wavy text-[15px] md:text-xl flex justify-center text-center" href="#">Suv Tarkibi</h3>
-                            </div>
+            <section id="suvUZ" className="md:block hidden w-full h-full bg-[#f8fcff] font-dosis my-[100px]">
+                <div data-aos="fade-up"
+                    data-aos-duration="1000" className='flex justify-center my-[100px]'>
+                    <div className='w-[150px] h-full'>
+                        <h3 className="wavy text-[15px] md:text-xl flex justify-center text-center" href="#">Splash suvining tozalash bosqichlari:</h3>
+                    </div>
+                </div >
+                {/* <div className="container mt-4"> */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {/* Left Side: Main Image */}
+                    <div className='h-[100%] mx-auto flex justify-center items-center'>
+                        <div className="h-[70%] w-[100%]">
+                            <img className='w-full h-full object-cover' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1690678818/water_wlasiw.jpg" alt="splash" />
                         </div>
-                        <br />
-                        <div className='flex justify-evenly md:text-[20px] sm:text-[15px] text-[12px] mx-4 text-center'>
+                    </div>
 
-                            {/* div 1 */}
-                            <div className='flex justify-center items-center w-[33%]'>
-                                <div className=''>
-                                    {/* img-1 */}
-                                    <div data-aos="fade-up" className='mt-4 ml-[80px]'>
-                                        <div className='flex justify-center'>
-                                            <img className='md:w-[30px] md:h-[40px] w-[20px] h-[30px]' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="strong" />
-                                        </div>
-                                        <div>
-                                            <p className='text-[12px] font-semibold'>
-                                                Suv tozalash inshooti:
-                                            </p>
-                                            <p className='text-[12px]'>Suv tozalash inshooti.
-                                                Ishlab chiqarishning dastlabki bosqichida manbadan suv saqlash tanklariga kiradi va keyin tozalash filtrlari tizimidan o'tadi.</p>
-                                        </div>
+                    {/* Right Side: Text with Drop Images */}
+                    <div className="flex flex-col justify-center items-center mx-auto w-full">
+                        <div className='pr-10'>
+                            {/* Text 1 */}
+                            <div data-aos="fade-up" className="my-4">
+                                <div>
+                                    <div className='flex'>
+                                        <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                        <p className=" text-[15px] font-semibold">Splash suv ishlab chiqarish suv tozalash inshooti bilan boshlanadi:</p>
                                     </div>
-                                    {/* img-2 */}
-                                    <div data-aos="fade-up" className='mt-4 mr-[20px]'>
-                                        <div className='flex justify-center'>
-                                            <img className='md:w-[30px] md:h-[40px] w-[20px] h-[30px]' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="weight" />
-                                        </div>
-                                        <div>
-                                            <p className='text-[12px] font-semibold'>
-                                                Tozalashning dastlabki bosqichilari:
-                                            </p>
-                                            <p className='text-[12px]'>
-                                                Mexanik zarralarni ushlab turadigan qum filtri va idishning pastki qismida qattiq aralashmalar joylashadigan cho'kma orqali tozalanadi.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    {/* img-3 */}
-                                    <div data-aos="fade-up" className='mt-4 ml-[80px]'>
-                                        <div className='flex justify-center'>
-                                            <img className='md:w-[30px] md:h-[40px] w-[20px] h-[30px]' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="liver" />
-                                        </div>
-                                        <div>
-                                            <p className='text-[12px] font-semibold'>
-                                                Tozalashning uchinchi bosqichi:
-                                            </p>
-                                            <p className='text-[12px]'>
-                                                Qatronlar filtri suvning karbonat qattiqligini olib tashlaydi, shu bilan birga foydali mikroelementlar va kaltsiy va magniy tuzlarini saqlaydi.
-                                            </p>
-                                        </div>
-                                    </div>
+                                    <p className='text-[15px]'>
+                                        Suv tozalash inshooti.
+                                        Ishlab chiqarishning dastlabki bosqichida manbadan suv saqlash tanklariga kiradi va keyin tozalash filtrlari tizimidan o'tadi.
+                                    </p>
                                 </div>
                             </div>
 
-                            {/* div 2 */}
-                            <div data-aos="fade-up"
-                                data-aos-duration="1000" className='md:w-[33%] md:h-[30%] h-[50%] w-[50%] mt-10'>
-                                <img src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1690678818/water_wlasiw.jpg" alt="splash" />
+                            {/* Text 2 */}
+                            <div data-aos="fade-up" className="my-4">
+                                <div>
+                                    <div className='flex'>
+                                        <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                        <p className="text-[15px] font-semibold">Tozalashning birinchi bosqichi:</p>
+                                    </div>
+                                    <p className="text-[15px]">
+                                        qum filtri / qo'pol filtr (cho'kindi filtri).
+                                        Suv mexanik zarralarni suvda ushlab turadigan kvarts qumi qatlamidan o'tadi. Shunday qilib, ushbu bosqichda suv to'xtatilgan zarrachalarning 90% dan tozalanadi.
+                                    </p>
+                                </div>
                             </div>
 
-                            {/* div 3 */}
-                            <div className='flex justify-center items-center w-[33%]'>
-                                <div className=''>
-                                    {/* img-1 */}
-                                    <div data-aos="fade-up" className='mt-4 mr-[80px]'>
-                                        <div className='flex justify-center'>
-                                            <img className='md:w-[30px] md:h-[40px] w-[20px] h-[30px]' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="strong" />
-                                        </div>
-                                        <div>
-                                            <p className='text-[12px] font-semibold'>
-                                                Tozalashning davomiy bosqichlari
-                                            </p>
-                                            <p className='text-[12px]'>
-                                                To'rtinchi bosqichda begona hidlar va organik moddalarni saqlaydigan uglerodli oldindan filtr qo'llaniladi va suv yaroqli holga keltiriladi.
-                                            </p>
-                                        </div>
+                            {/* Text 3 */}
+                            <div data-aos="fade-up" className="my-4">
+                                <div>
+                                    <div className='flex'>
+                                        <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                        <p className="text-[15px] font-semibold">Tozalashning ikkinchi bosqichi:</p>
                                     </div>
-                                    {/* img-2 */}
-                                    <div data-aos="fade-up" className='mt-4 ml-[20px]'>
-                                        <div className='flex justify-center'>
-                                            <img className='md:w-[30px] md:h-[40px] w-[20px] h-[30px]' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="weight" />
-                                        </div>
-                                        <div>
-                                            <p className='text-[12px] font-semibold'>
-                                                Tozalashning so'ngi bosqichi
-                                            </p>
-                                            <p className='text-[12px]'>
-                                                UV chiroq suvni mikroorganizmlardan tozalaydi, ularning sonini kamaytiradi va ko'payish qobiliyatini bostiradi. Sanitariya ultrafiltri kvarts chiroqqa ta'sir qilgandan keyin o'lik mikroorganizmlarni yo'q qiladi.
-                                            </p>
-                                        </div>
+                                    <p className="text-[15px]">
+                                        cho'kish jarayoni - jarayonning mohiyati shundaki, tortishish kuchlari ta'sirida ifloslantiruvchi moddalarning qattiq zarralari (metall va boshqa moddalar) suv bilan idishning tubiga joylashadi.
+                                    </p>
+                                </div>
+                            </div>
+
+                            {/* Text 4 */}
+                            <div data-aos="fade-up" className="my-4">
+                                <div>
+                                    <div className='flex'>
+                                        <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                        <p className="text-[15px] font-semibold">Tozalashning uchinchi bosqichi:</p>
                                     </div>
-                                    {/* img-3 */}
-                                    <div data-aos="fade-up" className='mt-4 mr-[80px]'>
-                                        <div className='flex justify-center'>
-                                            <img className='md:w-[30px] md:h-[40px] w-[20px] h-[30px]' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="liver" />
-                                        </div>
-                                        <div>
-                                            <p className='text-[12px] font-semibold'>
-                                                Oxirgi bosqich
-                                            </p>
-                                            <p className='text-[12px]'>
-                                                Suv dezinfektsiyalash uchun kislorod bilan boyitiladi va keyinchalik shishaga quyish uchun saqlash tanklariga yuboriladi.
-                                            </p>
-                                        </div>
+                                    <p className="text-[15px]">
+                                        "qatron filtri".
+                                        Filtrning qatronli membranasidan o'tib, suv keraksiz karbonat qattiqligidan xalos bo'lib, inson tanasi uchun zarur bo'lgan barcha foydali mikroelementlar va kaltsiy va magniy tuzlarini saqlaydi.
+                                    </p>
+                                </div>
+                            </div>
+
+                            {/* Text 5 */}
+                            <div data-aos="fade-up" className="my-4">
+                                <div>
+                                    <div className='flex'>
+                                        <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                        <p className="text-[15px] font-semibold">To'rtinchi bosqich:</p>
                                     </div>
+                                    <p className="text-[15px]">
+                                        UV chiroq suvni mikroorganizmlardan tozalaydi, ularning sonini kamaytiradi va ko'payish qobiliyatini bostiradi. Sanitariya ultrafiltri kvarts chiroqqa ta'sir qilgandan keyin o'lik mikroorganizmlarni yo'q qiladi.
+                                    </p>
+                                </div>
+                            </div>
+
+                            {/* Text 6 */}
+                            <div data-aos="fade-up" className="my-4">
+                                <div>
+                                    <div className='flex'>
+                                        <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                        <p className="text-[15px] font-semibold">Beshinchi va oltinchi bosqichlar:</p>
+                                    </div>
+                                    <p className="text-[15px]">
+                                        5 dan 2 mikrongacha bo'lgan nozik go'zenekli filtrlar tizimi.
+                                        Ularning vazifasi suvni molekulyar darajadagi aralashmalardan tozalashdir.
+                                    </p>
+                                </div>
+                            </div>
+
+                            {/* Text 7 */}
+                            <div data-aos="fade-up" className="my-4">
+                                <div>
+                                    <div className='flex'>
+                                        <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                        <p className="text-[15px] font-semibold">Ettinchi bosqich:</p>
+                                    </div>
+                                    <p className="text-[15px]">
+                                        ultrabinafsha chiroq (UV chiroq).
+                                        Ultraviyole chiroq suvni suvda mavjud bo'lgan mikroorganizmlardan tozalaydi, ya'ni. ultrabinafsha nurlanish ta'sirida mikroblarning umumiy soni kamayadi va viruslar va bakteriyalarning ko'payish qobiliyati bostiriladi.
+                                    </p>
+                                </div>
+                            </div>
+
+                            {/* Text 8 */}
+                            <div data-aos="fade-up" className="my-4">
+                                <div>
+                                    <div className='flex'>
+                                        <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                        <p className="text-[15px] font-semibold">Tozalashning sakkizinchi bosqichi:</p>
+                                    </div>
+                                    <p className="text-[15px]">
+                                        sanitariya ultrafiltr.
+                                        U kvarts lampasi bilan nurlanish paytida nobud bo'lgan o'lik mikroorganizmlardan suvni tozalaydi.
+                                    </p>
+                                </div>
+                            </div>
+
+                            {/* Text 9 */}
+                            <div data-aos="fade-up" className="my-4">
+                                <div>
+                                    <div className='flex'>
+                                        <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                        <p className="text-[15px] font-semibold">Va nihoyat, oxirgi bosqich - ozonator:</p>
+                                    </div>
+                                    <p className="text-[15px]">
+                                        Ushbu bosqichda suv faol kislorod bilan boyitiladi, buning natijasida u dezinfektsiyalanadi.
+                                        Tozalangan suv saqlash tanklariga (tanklarning pastki darajasi) kiradi va quvur tizimi orqali shisha ishlab chiqarish sexiga kiradi.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </section>
+
 
             {/* MOBILE VERSION */}
 
@@ -129,7 +162,7 @@ const TarkibUZ = () => {
                 <div data-aos="fade-up"
                     data-aos-duration="1000" className='flex justify-center'>
                     <div className='w-[150px] h-full'>
-                        <h3 className="wavy text-[15px] md:text-xl flex justify-center text-center" href="#">Suv Tarkibi</h3>
+                        <h3 className="wavy text-[15px] md:text-xl flex justify-center text-center" href="#">Splash suvining tozalash bosqichlari:</h3>
                     </div>
                 </div >
                 <div data-aos="fade-up"
@@ -142,14 +175,14 @@ const TarkibUZ = () => {
                 <div>
                     {/* TEXT - 1 */}
                     <div data-aos="fade-up"
-                        data-aos-duration="1000" className='flex justify-center p-2'>
-                        <div className='flex justify-center items-center p-4'>
-                            <img className='w-[25px] h-[20px] sm:w-[25px] sm:h-[30px]' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="strong" />
-                        </div>
+                        data-aos-duration="1000" className='flex justify-center p-2 my-4 mx-4'>
                         <div>
-                            <p className='text-[15px] font-semibold'>
-                                Suv tozalash inshooti:
-                            </p>
+                            <div className='flex'>
+                                <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                <p className='text-[15px] font-semibold'>
+                                    Splash suv ishlab chiqarish suv tozalash inshooti bilan boshlanadi:
+                                </p>
+                            </div>
                             <p className='text-[15px]'>Suv tozalash inshooti.
                                 Ishlab chiqarishning dastlabki bosqichida manbadan suv saqlash tanklariga kiradi va keyin tozalash filtrlari tizimidan o'tadi.</p>
                         </div>
@@ -157,78 +190,133 @@ const TarkibUZ = () => {
 
                     {/* TEXT - 2 */}
                     <div data-aos="fade-up"
-                        data-aos-duration="1000" className='flex justify-center p-2'>
-                        <div className='flex justify-center items-center p-4'>
-                            <img className='w-[25px] h-[20px] sm:w-[25px] sm:h-[30px]' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="strong" />
-                        </div>
+                        data-aos-duration="1000" className='flex justify-center p-2 my-4 mx-4'>
                         <div>
-                            <p className='text-[15px] font-semibold'>
-                                Tozalashning dastlabki bosqichilari:
-                            </p>
+                            <div className='flex'>
+                                <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                <p className='text-[15px] font-semibold'>
+                                    Tozalashning birinchi bosqichi:
+                                </p>
+                            </div>
                             <p className='text-[15px]'>
-                                Mexanik zarralarni ushlab turadigan qum filtri va idishning pastki qismida qattiq aralashmalar joylashadigan cho'kma orqali tozalanadi.
+                                qum filtri / qo'pol filtr (cho'kindi filtri).
+                                Suv mexanik zarralarni suvda ushlab turadigan kvarts qumi qatlamidan o'tadi. Shunday qilib, ushbu bosqichda suv to'xtatilgan zarrachalarning 90% dan tozalanadi.
                             </p>
                         </div>
                     </div>
 
                     {/* TEXT - 3 */}
                     <div data-aos="fade-up"
-                        data-aos-duration="1000" className='flex justify-center p-2'>
-                        <div className='flex justify-center items-center p-4'>
-                            <img className='w-[25px] h-[20px] sm:w-[25px] sm:h-[30px]' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="strong" />
-                        </div>
+                        data-aos-duration="1000" className='flex justify-center p-2 my-4 mx-4'>
                         <div>
-                            <p className='text-[15px] font-semibold'>
-                                Tozalashning uchinchi bosqichi:
-                            </p>
+                            <div className='flex'>
+                                <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                <p className='text-[15px] font-semibold'>
+                                    Tozalashning ikkinchi bosqichi:
+                                </p>
+                            </div>
                             <p className='text-[15px]'>
-                                Qatronlar filtri suvning karbonat qattiqligini olib tashlaydi, shu bilan birga foydali mikroelementlar va kaltsiy va magniy tuzlarini saqlaydi.
+                                cho'kish jarayoni - jarayonning mohiyati shundaki, tortishish kuchlari ta'sirida ifloslantiruvchi moddalarning qattiq zarralari (metall va boshqa moddalar) suv bilan idishning tubiga joylashadi.
                             </p>
                         </div>
                     </div>
 
                     {/* TEXT - 4 */}
                     <div data-aos="fade-up"
-                        data-aos-duration="1000" className='flex justify-center p-2'>
-                        <div className='flex justify-center items-center p-4'>
-                            <img className='w-[25px] h-[20px] sm:w-[25px] sm:h-[30px]' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="strong" />
-                        </div>
+                        data-aos-duration="1000" className='flex justify-center p-2 my-4 mx-4'>
                         <div>
-                            <p className='text-[15px] font-semibold'>
-                                Tozalashning davomiy bosqichlari
-                            </p>
-                            <p className='text-[15px]'>Davomiy bosqichda begona hidlar va organik moddalarni saqlaydigan uglerodli oldindan filtr qo'llaniladi va suv yaroqli holga keltiriladi.</p>
+                            <div className='flex'>
+                                <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                <p className='text-[15px] font-semibold'>
+                                    Tozalashning uchinchi bosqichi:
+                                </p>
+                            </div>
+                            <p className='text-[15px]'>"qatron filtri".
+                                Filtrning qatronli membranasidan o'tib, suv keraksiz karbonat qattiqligidan xalos bo'lib, inson tanasi uchun zarur bo'lgan barcha foydali mikroelementlar va kaltsiy va magniy tuzlarini saqlaydi.</p>
                         </div>
                     </div>
 
                     {/* TEXT - 5 */}
                     <div data-aos="fade-up"
-                        data-aos-duration="1000" className='flex justify-center p-2'>
-                        <div className='flex justify-center items-center p-4'>
-                            <img className='w-[35px] h-[20px] sm:w-[38px] sm:h-[30px]' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="strong" />
-                        </div>
+                        data-aos-duration="1000" className='flex justify-center p-2 my-4 mx-4'>
                         <div>
-                            <p className='text-[15px] font-semibold'>
-                                Tozalashning so'ngi bosqichi
-                            </p>
+                            <div className='flex'>
+                                <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                <p className='text-[15px] font-semibold'>
+                                    To'rtinchi bosqich:
+                                </p>
+                            </div>
                             <p className='text-[15px]'>
-                                UV chiroq suvni mikroorganizmlardan tozalaydi, ularning sonini kamaytiradi va ko'payish qobiliyatini bostiradi. Sanitariya ultrafiltri kvarts chiroqqa ta'sir qilgandan keyin o'lik mikroorganizmlarni yo'q qiladi.
+                                "ugleroddan oldingi filtr" (Karbonli filtr).
+                                Ko'mir noyob changni yutish ta'siriga ega, buning natijasida suv sifatini yomonlashtiradigan barcha begona hidlar va organik moddalarni saqlaydi.
                             </p>
                         </div>
                     </div>
 
                     {/* TEXT - 6 */}
                     <div data-aos="fade-up"
-                        data-aos-duration="1000" className='flex justify-center p-2'>
-                        <div className='flex justify-center items-center p-4'>
-                            <img className='w-[25px] h-[20px] sm:w-[25px] sm:h-[30px]' src="https://res.cloudinary.com/dcrolfqsj/image/upload/v1675501126/drop1-removebg-preview_fxpmsj.png" alt="strong" />
-                        </div>
+                        data-aos-duration="1000" className='flex justify-center p-2 my-4 mx-4'>
                         <div>
-                            <p className='text-[15px] font-semibold'>
-                                Oxirgi bosqich
-                            </p>
+                            <div className='flex'>
+                                <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                <p className='text-[15px] font-semibold'>
+                                    Beshinchi va oltinchi bosqichlar:
+                                </p>
+                            </div>
                             <p className='text-[15px]'>
-                                Suv dezinfektsiyalash uchun kislorod bilan boyitiladi va keyinchalik shishaga quyish uchun saqlash tanklariga yuboriladi.
+                                5 dan 2 mikrongacha bo'lgan nozik go'zenekli filtrlar tizimi.
+                                Ularning vazifasi suvni molekulyar darajadagi aralashmalardan tozalashdir.
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* TEXT - 7 */}
+                    <div data-aos="fade-up"
+                        data-aos-duration="1000" className='flex justify-center p-2 my-4 mx-4'>
+                        <div>
+                            <div className='flex'>
+                                <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                <p className='text-[15px] font-semibold'>
+                                    Ettinchi bosqich:
+                                </p>
+                            </div>
+                            <p className='text-[15px]'>
+                                ultrabinafsha chiroq (UV chiroq).
+                                Ultraviyole chiroq suvni suvda mavjud bo'lgan mikroorganizmlardan tozalaydi, ya'ni. ultrabinafsha nurlanish ta'sirida mikroblarning umumiy soni kamayadi va viruslar va bakteriyalarning ko'payish qobiliyati bostiriladi.
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* TEXT - 8 */}
+                    <div data-aos="fade-up"
+                        data-aos-duration="1000" className='flex justify-center p-2 my-4 mx-4'>
+                        <div>
+                            <div className='flex'>
+                                <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                <p className='text-[15px] font-semibold'>
+                                    Tozalashning sakkizinchi bosqichi:
+                                </p>
+                            </div>
+                            <p className='text-[15px]'>
+                                sanitariya ultrafiltr.
+                                U kvarts lampasi bilan nurlanish paytida nobud bo'lgan o'lik mikroorganizmlardan suvni tozalaydi.
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* TEXT - 9 */}
+                    <div data-aos="fade-up"
+                        data-aos-duration="1000" className='flex justify-center p-2 my-4 mx-4'>
+                        <div>
+                            <div className='flex'>
+                                <BsFillDropletFill className='p-[2px] text-blue-400' fontSize={30} />
+                                <p className='text-[15px] font-semibold'>
+                                    Va nihoyat, oxirgi bosqich - ozonator:
+                                </p>
+                            </div>
+                            <p className='text-[15px]'>
+                                Ushbu bosqichda suv faol kislorod bilan boyitiladi, buning natijasida u dezinfektsiyalanadi.
+                                Tozalangan suv saqlash tanklariga (tanklarning pastki darajasi) kiradi va quvur tizimi orqali shisha ishlab chiqarish sexiga kiradi.
                             </p>
                         </div>
                     </div>

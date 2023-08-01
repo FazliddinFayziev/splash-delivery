@@ -3,7 +3,7 @@ import React from 'react'
 const SectionOneUZ = () => {
     return (
         <>
-            <section id='suvUZ' className='w-full h-full bg-[#f8fcff] font-dosis font-semibold mt-[-100px] md:mt-[-50px]'>
+            <section className='w-full h-full bg-[#f8fcff] font-dosis font-semibold mt-[-100px] md:mt-[-50px]'>
                 <div>
                     <div>
                         <div data-aos="fade-up"

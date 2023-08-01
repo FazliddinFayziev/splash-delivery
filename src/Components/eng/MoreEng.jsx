@@ -4,7 +4,7 @@ import { BsDropletHalf } from "react-icons/bs";
 
 const MoreEng = () => {
     return (
-        <section>
+        <section id='xizmatENG'>
             <div className='flex justify-center font-dosis font-semibold'>
                 <div data-aos="fade-up"
                     data-aos-duration="1000" className='w-[150px] h-full my-12'>
