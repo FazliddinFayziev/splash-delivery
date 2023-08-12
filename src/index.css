@@ -7,6 +7,10 @@ body {
     background-color: #f8fcff;
 }
 
+body.body-scroll-lock {
+    overflow: hidden;
+}
+
 .wavy {
     text-decoration: none;
     padding-bottom: 13px;
