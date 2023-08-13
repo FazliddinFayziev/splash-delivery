@@ -29,7 +29,7 @@ const News = ({ id, img, date, info }) => {
                     <p className="text-gray-500">{date}</p>
                 </div>
                 <div className="flex justify-center">
-                    <p>{info}</p>
+                    <p>{info.slice(0, 100)} . . .</p>
                 </div>
             </div>
         </>
