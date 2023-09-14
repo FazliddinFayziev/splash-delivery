@@ -79,35 +79,8 @@ const FooterUZ = () => (
                         {/* second */}
                         <div className='w-[250px] h-[300px] text-white'>
                             {/* delivery */}
-                            <div className='flex ml-3'>
-                                <div className='h-[40px] border-l-4 border-blue-900'></div>
-                                <div className='flex items-center ml-2'>
-                                    <h1 className='w-full text-2xl text-white'>Bog’lanish:</h1>
-                                </div>
-                            </div>
-                            <div className='ml-5'>
-                                {/* 1 */}
-                                <div className='flex mt-2'>
-                                    <div className='mr-2'>
-                                        <FaPhoneAlt fontSize={20} />
-                                    </div>
-                                    <h1><a href="tel:+998 71 208 9119">+998 71 208 9119</a></h1>
-                                </div>
-                                {/* 2 */}
-                                <div className='flex mt-2'>
-                                    <div className='mr-2'>
-                                        <BsTelegram fontSize={20} />
-                                    </div>
-                                    <h1><a href="https://t.me/splashwaterbot">t.me/splashwaterbot</a></h1>
-                                </div>
-                                {/* 3 */}
-                                <div className='flex mt-2'>
-                                    <div className='mr-2'>
-                                        <AiFillInstagram fontSize={20} />
-                                    </div>
-                                    <h1><a href="https://instagram.com/splash.uz">instagram.com/splash.uz</a></h1>
-                                </div>
-                            </div>
+                            <div className='flex ml-3'></div>
+                            <div className='ml-5'></div>
                         </div>
                         {/* third */}
                         <div className='w-[250px] h-[300px]'>
